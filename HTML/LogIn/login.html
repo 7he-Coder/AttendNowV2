@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AttendNow</title>
+
+  <!-- style css  -->
+  <link rel="stylesheet" href="../../CSS/style.css">
+  <!-- global css  -->
+  <link rel="stylesheet" href="../../CSS/global.css">
+
+  <!-- fontfamily -->
+  <link href="https://db.onlinewebfonts.com/c/7fdb09ff5a96f39768f311d5471d68a9?family=FuturaLig" rel="stylesheet">
+  <link href="https://db.onlinewebfonts.com/c/fd6e6c30c7d355528ba9428eea942445?family=Futura+Book" rel="stylesheet">
+  <link href="https://db.onlinewebfonts.com/c/77d394fa0c1103c648f880b77cb4a32f?family=Futura+LT+W01+Medium"
+    rel="stylesheet">
+
+  <!-- Font Awesome CDN link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="font-futura">
+  <div class="app-container">
+
+    <!-- =======================
+    *** Header/Navbar Section ***
+    ======================== -->
+    <header id="home" class="w-full h-[97px] sticky top-0 left-0 z-[9999999] drop-shadow-lg bg-bgSecondary">
+      <div
+        class="w-full xl:max-w-7xl 2xl:max-w-full mx-auto py-2 px-4 md:px-8 2xl:px-10 flex justify-between items-center">
+        <div class="logo flex items-center justify-start cursor-pointer">
+          <a href="../../index.html">
+            <div>
+              <svg preserveAspectRatio="xMidYMid meet" data-bbox="0 0 142 85" viewBox="0 0 142 85" height="85"
+                width="70" xmlns="http://www.w3.org/2000/svg" data-type="color" role="img" aria-label="AttendNow">
+                <g>
+                  <path fill="#BB2323"
+                    d="M86 42.5C86 65.972 66.748 85 43 85S0 65.972 0 42.5 19.252 0 43 0s43 19.028 43 42.5z"
+                    data-color="1"></path>
+                  <path fill="#DC2626"
+                    d="M142 42.298c0 23.36-18.937 42.298-42.298 42.298-23.36 0-42.298-18.937-42.298-42.298C57.404 18.938 76.341 0 99.702 0 123.062 0 142 18.937 142 42.298z"
+                    data-color="2"></path>
+                  <path fill="#ffffff"
+                    d="M81.404 39.968 95.656 54.22a3.848 3.848 0 1 1-5.442 5.442L75.963 45.41a3.848 3.848 0 1 1 5.442-5.442z"
+                    data-color="3"></path>
+                  <path fill="#ffffff"
+                    d="M124.44 30.855 95.678 59.62a3.848 3.848 0 1 1-5.442-5.442L119 25.413a3.848 3.848 0 1 1 5.442 5.442z"
+                    data-color="3"></path>
+                </g>
+              </svg>
+            </div>
+            <div class="text-paraTextxl ml-3">
+              <h2 class="text-white font-futuraBk text-xl md:text-2xl tracking-wide"><a
+                  href="../../index.html">AttendNow</a></h2>
+            </div>
+          </a>
+        </div>
+
+        <nav class="flex items-center justify-center">
+          <div class="hidden lg:block">
+            <div class="flex items-center justify-between">
+              <ul
+                class="navigation mr-16 flex font-futuraBk tracking-tighter text-white [&_a:hover]:text-gray-300 lg:mr-4 min-[1285px]:mr-16 min-[1024px]:text-base min-[1040px]:text-paraTextmd min-[1070px]:text-lg gap-4 xl:gap-8">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="#attendNow">Why AttendNow</a></li>
+                <li><a href="#benefit">Benefits</a></li>
+                <li><a href="#review">Reviews</a></li>
+                <li><a href="#price">Pricing</a></li>
+                <li><a href="../Blog/blog.html">Blog</a></li>
+                <li><a href="../ReqADemo/reqaDemo.html">Requesta Demo</a></li>
+                <li><a href="#">Login</a></li>
+              </ul>
+              <form
+                class="group w-[150px] max-w-sm bg-countryBtn outline-none font-futuraBk rounded-lg inline-flex cursor-pointer">
+                <select id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider"
+                  class="bg-countryBtn text-white text-base px-1 ml-5 py-2 outline-none border-none appearance-none cursor-pointer">
+
+                  <option value="English" selected>English</option>
+                  <option value="العربية">العربية</option>
+                  <option value="বাংলা">বাংলা</option>
+                  <option value="Español">Español</option>
+                  <option value="Français">Français</option>
+                  <option value="ગુજરાતી">ગુજરાતી</option>
+                  <option value="हिन्दी">हिन्दी</option>
+                  <option value="ಕನ್ನಡ">ಕನ್ನಡ</option>
+                  <option value="മലയാളം">മലയാളം</option>
+                  <option value="मराठी">मराठी</option>
+                  <option value="ਪੰਜਾਬੀ">ਪੰਜਾਬੀ</option>
+                  <option value="Português">Português</option>
+                  <option value="Русский">Русский</option>
+                  <option value="தமிழ்">தமிழ்</option>
+                  <option value="తెలుగు">తెలుగు</option>
+                  <option value="اردو">اردو</option>
+                </select>
+
+                <span class="duration-500 ease-in-out group-hover:rotate-180">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                    class="w-[16px] h-[16px] fill-white mt-3">
+                    <path
+                      d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                  </svg>
+                </span>
+
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <!-- mobile menus -->
+        <div id="navbarSlide"
+          class="w-full h-screen absolute top-24 -left-0 active:left-0 bg-[#ffffffa9] backdrop-blur-xl overflow-hidden hidden">
+          <div class="max-w-max h-full bg-bgPrimary absolute z-50 border-t border-t-universal border-opacity-50">
+            <div class="size-full grid px-6 gap-y-8">
+              <ul
+                class="navigation w-full h-auto mt-8 grid gap-y-2 items-start font-futuraMd *:px-4 *:py-2 *:text-white [&_li:hover]:rounded-sm [&_li]:w-auto [&_a]:pr-9 [&_a]:pl-2 [&_a]:py-2 [&_a:hover]:text-universal *:cursor-pointer">
+                <li><a class="navLink" href="#">Home</a></li>
+                <li><a class="navLink" href="#attendNow">Why AttendNow</a></li>
+                <li><a class="navLink" href="#benefit">Benefits</a></li>
+                <li><a class="navLink" href="#review">Reviews</a></li>
+                <li><a class="navLink" href="#price">Pricing</a></li>
+                <li><a class="navLink" href="../Blog/blog.html">Blog</a></li>
+                <li><a class="navLink" href="../ReqADemo/reqaDemo.html">Requesta Demo</a></li>
+                <li><a class="navLink" href="../LogIn/login.html" target="_blank">Login</a></li>
+              </ul>
+
+              <div>
+                <form
+                  class="group w-full h-auto outline-none font-futuraBk rounded-full inline-flex items-center justify-center bg-heroGradient">
+                  <select id="dropdownDividerButton"
+                    class="py-2 px-8 rounded-full bg-heroGradient bg-countryBtn text-white text-base outline-none border-none cursor-pointer appearance-none"
+                    data-dropdown-toggle="dropdownDivider">
+                    <option value="English">English</option>
+                    <option value="العربية">العربية</option>
+                    <option value="বাংলা">বাংলা</option>
+                    <option value="Español">Español</option>
+                    <option value="Français">Français</option>
+                    <option value="ગુજરાતી">ગુજરાતી</option>
+                    <option value="हिन्दी">हिन्दी</option>
+                    <option value="ಕನ್ನಡ">ಕನ್ನಡ</option>
+                    <option value="മലയാളം">മലയാളം</option>
+                    <option value="मराठी">मराठी</option>
+                    <option value="ਪੰਜਾਬੀ">ਪੰਜਾਬੀ</option>
+                    <option value="Português">Português</option>
+                    <option value="Русский">Русский</option>
+                    <option value="தமிழ்">தமிழ்</option>
+                    <option value="తెలుగు">తెలుగు</option>
+                    <option value="اردو">اردو</option>
+                  </select>
+                  <span class="px-4 duration-500 ease-in-out group-hover:rotate-180">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-[16px] h-[16px] fill-white">
+                      <path
+                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                    </svg>
+                  </span>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- *** hamburger *** -->
+        <button id="hamburger"
+          class="group lg:hidden bg-transparent grid gap-1.5 place-items-end transition duration-300 ease-in *:transition *:duration-500 *:ease-in-out">
+          <span class="line line1 "></span>
+          <span class="line line2 "></span>
+          <span class="line line3 "></span>
+        </button>
+
+      </div>
+    </header>
+
+    <!-- =======================
+    ***  LogIn Section ***
+    ======================== -->
+    <section class="login shrink-0">
+      <div class="backgroundLogin">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="relative h-screen ">
+        <div
+          class="w-full h-[90vh] place-items-center xl:max-w-7xl 2xl:max-w-full mx-auto py-16 px-6 md:px-16 2xl:px-28">
+          <div class="absolute inset-0">
+            <div
+              class="relative h-full w-full [&>div]:absolute [&>div]:inset-0 [&>div]:bg-heroGradient [&>div]:opacity-40 [&>div]:mix-blend-multiply">
+              <div></div>
+            </div>
+          </div>
+
+          <!-- login Content -->
+          <div class="relative z-10 flex h-full flex-col items-center justify-center px-4">
+            <div class="max-w-3xl w-full mx-auto text-center">
+              <h2 class="mb-12 text-3xl lg:text-6xl font-bold tracking-tight text-bgPrimary font-futuraMd">
+                Login
+              </h2>
+
+              <form
+                class="border-y rounded-md border-bgSecondary mt-2 mb-6 py-6 [&>div]:grid [&>div]:w-[300px] grid-cols-1 text-start [&>div]:py-2 [&_label]:text-lg [&_label]:text-white [&_label]:py-2  [&_label]:text-headerBgcolor [&_label]:w-fit [&_label]:cursor-pointer [&_label]:font-bold [&_input]:border [&_input]:py-3 [&_input]:px-4 [&_input]:text-base [&_input]:rounded-md [&_input]:outline-none"
+                action="backend.php">
+                <div>
+                  <label for="email">Email:</label>
+                  <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                </div>
+
+                <div>
+                  <button
+                    class="rounded-md px-6 py-3 font-medium bg-bgHeader text-white hover:bg-universal duration-150 ease-in">
+                    LOGIN
+                  </button>
+                </div>
+
+                <div class="font-light text-center mt-6 mb-2 text-white">
+                  <span>Or Sign Up Using</span>
+                </div>
+
+                <div class="grid grid-cols-3 place-items-center [&_i]:text-white [&_i]:p-2 [&_i]:rounded-sm">
+                  <a href="#"><i class="fa-brands fa-google bg-red-500"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter bg-blue-500"></i></a>
+                  <a href="#"><i class="fa-brands fa-github bg-gray-950"></i></a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= 
+    Back to home button  
+    ======================= -->
+    <div class="hidden md:block">
+      <a class="px-2 py-4 rounded-sm shadow-sm bg-bgPrimary font-futuraBk max-w-max fixed left-0 bottom-3 md:bottom-16 text-sm text-white font-light"
+        href="../../index.html">
+        <p class="[writing-mode:vertical-lr]">Back to Home</p>
+        <i class="fa-solid fa-house text-bgSecondary mt-4"></i>
+      </a>
+    </div>
+
+    <!-- =======================
+    ***  Footer Section ***
+    ======================== -->
+    <footer class="bg-bgSecondary py-16">
+      <div class="w-full xl:max-w-7xl mx-auto grid grid-row-2 px-6 md:px-16">
+        <div class="grid sm:grid-cols-3 sm:py-10 py-8">
+          <div class="rightSide">
+            <div class="logo block md:flex">
+              <svg preserveAspectRatio="xMidYMid meet" data-bbox="0 0 142 85" viewBox="0 0 142 85" width="45"
+                xmlns="http://www.w3.org/2000/svg" data-type="color" role="img" aria-label="AttendNow">
+                <g>
+                  <path fill="#BB2323"
+                    d="M86 42.5C86 65.972 66.748 85 43 85S0 65.972 0 42.5 19.252 0 43 0s43 19.028 43 42.5z"
+                    data-color="1"></path>
+                  <path fill="#DC2626"
+                    d="M142 42.298c0 23.36-18.937 42.298-42.298 42.298-23.36 0-42.298-18.937-42.298-42.298C57.404 18.938 76.341 0 99.702 0 123.062 0 142 18.937 142 42.298z"
+                    data-color="2"></path>
+                  <path fill="#ffffff"
+                    d="M81.404 39.968 95.656 54.22a3.848 3.848 0 1 1-5.442 5.442L75.963 45.41a3.848 3.848 0 1 1 5.442-5.442z"
+                    data-color="3"></path>
+                  <path fill="#ffffff"
+                    d="M124.44 30.855 95.678 59.62a3.848 3.848 0 1 1-5.442-5.442L119 25.413a3.848 3.848 0 1 1 5.442 5.442z"
+                    data-color="3"></path>
+                </g>
+              </svg>
+              <div class="md:ml-3 mt-2 md:mt-0">
+                <h2 class="text-white font-semibold text-lg tracking-tight">AttendNow Tech Solutions Private
+                  Limited</h2>
+              </div>
+            </div>
+            <div class="py-6 font-futuraMd text-white md:ml-14">
+              <h4 class="mb-2">
+                <a href="#" class="hover:text-gray-100 duration-75 ease-linear" title="Call Now"><span
+                    class="font-futuraBk font-semibold">Tel: </span>
+                  +91 90283 23769</a>
+              </h4>
+              <h4>
+                <a href="#" class="hover:text-gray-100 duration-75 ease-linear" title="Email Now">
+                  <span class="font-futuraBk font-semibold">Email:
+                  </span> info@attendnow.in</a>
+              </h4>
+            </div>
+            <div class="text-paraTextxl text-white md:ml-14">
+              <a href="#" class="mr-2"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="leftSide place-items-start sm:place-items-end mt-4 sm:mt-0">
+            <ul class="font-futuraMd">
+              <li class="text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Home</a>
+              </li>
+              <li class="py-2 text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Why AttendNow</a>
+              </li>
+              <li class="text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Benefits</a>
+              </li>
+              <li class="py-2 text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Reviews</a>
+              </li>
+              <li class="py-2 text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Pricing</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="leftSide place-items-start sm:place-items-end mt-4 sm:mt-0">
+            <ul class="font-futuraMd">
+              <li class="text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="py-2 text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Terms & Conditions</a>
+              </li>
+              <li class="text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Refund Policy</a>
+              </li>
+              <li class="py-2 text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Shipping Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="place-items-center pt-4">
+          <p class="text-paraTextmd font-futuraMd font-normal text-center text-white">© 2024 by AttendNow Tech
+            Solutions Private
+            Limited.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Script JS -->
+  <script src="../../Js/script.js"></script>
+</body>
+
+</html>

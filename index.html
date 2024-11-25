@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AttendNow</title>
+
+  <!-- style css  -->
+  <link rel="stylesheet" href="./CSS/style.css">
+  <!-- global css  -->
+  <link rel="stylesheet" href="./CSS/global.css">
+
+  <!-- swiffy slider  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css"
+    rel="stylesheet" crossorigin="anonymous">
+
+  <!-- fontfamily -->
+  <link href="https://db.onlinewebfonts.com/c/7fdb09ff5a96f39768f311d5471d68a9?family=FuturaLig" rel="stylesheet">
+  <link href="https://db.onlinewebfonts.com/c/fd6e6c30c7d355528ba9428eea942445?family=Futura+Book" rel="stylesheet">
+  <link href="https://db.onlinewebfonts.com/c/77d394fa0c1103c648f880b77cb4a32f?family=Futura+LT+W01+Medium"
+    rel="stylesheet">
+
+  <!-- Font Awesome CDN link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="font-futura scroll-smooth">
+  <div class="app-container">
+
+
+
+
+    <!-- =======================
+    *** Header/Navbar Section ***
+    ======================== -->
+    <header id="home"
+      class="w-full h-[97px] sticky top-0 left-0 z-[9999999] drop-shadow-lg backdrop-blur-lg bg-bgSecondary">
+      <div
+        class="w-full xl:max-w-7xl 2xl:max-w-full mx-auto py-2 px-4 md:px-8 2xl:px-10 flex justify-between items-center">
+        <div class="logo flex items-center justify-start cursor-pointer">
+          <a href="./index.html">
+            <div>
+              <svg class="drop-shadow-md" preserveAspectRatio="xMidYMid meet" data-bbox="0 0 142 85"
+                viewBox="0 0 142 85" height="85" width="70" xmlns="http://www.w3.org/2000/svg" data-type="color"
+                role="img" aria-label="AttendNow">
+                <g>
+                  <path fill="#BB2323"
+                    d="M86 42.5C86 65.972 66.748 85 43 85S0 65.972 0 42.5 19.252 0 43 0s43 19.028 43 42.5z"
+                    data-color="1"></path>
+                  <path fill="#DC2626"
+                    d="M142 42.298c0 23.36-18.937 42.298-42.298 42.298-23.36 0-42.298-18.937-42.298-42.298C57.404 18.938 76.341 0 99.702 0 123.062 0 142 18.937 142 42.298z"
+                    data-color="2"></path>
+                  <path fill="#ffffff"
+                    d="M81.404 39.968 95.656 54.22a3.848 3.848 0 1 1-5.442 5.442L75.963 45.41a3.848 3.848 0 1 1 5.442-5.442z"
+                    data-color="3"></path>
+                  <path fill="#ffffff"
+                    d="M124.44 30.855 95.678 59.62a3.848 3.848 0 1 1-5.442-5.442L119 25.413a3.848 3.848 0 1 1 5.442 5.442z"
+                    data-color="3"></path>
+                </g>
+              </svg>
+            </div>
+            <div class="text-paraTextxl ml-3">
+              <h2 class="text-white font-futuraBk text-xl md:text-2xl tracking-wide"><a
+                  href="./index.html">AttendNow</a></h2>
+            </div>
+          </a>
+        </div>
+
+        <nav class="flex items-center justify-center">
+          <div class="hidden lg:block">
+            <div class="flex items-center justify-between">
+              <ul
+                class="navigation mr-16 flex font-futuraBk *:2xl:text-xl tracking-tighter text-white [&_a:hover]:text-gray-300 lg:mr-4 min-[1285px]:mr-16 *:min-[1024px]:text-base *:min-[1040px]:text-paraTextmd *:min-[1070px]:text-lg gap-4 xl:gap-8">
+                <li><a href="#">Home</a></li>
+                <li><a href="#attendNow">Why AttendNow</a></li>
+                <li><a href="#benefit">Benefits</a></li>
+                <li><a href="#review">Reviews</a></li>
+                <li><a href="#price">Pricing</a></li>
+                <li><a href="./HTML/Blog/blog.html">Blog</a></li>
+                <li><a href="./HTML/ReqADemo/reqaDemo.html">Requesta Demo</a>
+                </li>
+                <li><a href="./HTML/LogIn/login.html">Login</a></li>
+              </ul>
+              <form
+                class="group w-[150px] max-w-sm bg-countryBtn outline-none font-futuraBk rounded-lg inline-flex cursor-pointer">
+                <select id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider"
+                  class="bg-countryBtn text-white text-base px-1 ml-5 py-2 outline-none border-none appearance-none cursor-pointer">
+
+                  <option value="English" selected>English</option>
+                  <option value="العربية">العربية</option>
+                  <option value="বাংলা">বাংলা</option>
+                  <option value="Español">Español</option>
+                  <option value="Français">Français</option>
+                  <option value="ગુજરાતી">ગુજરાતી</option>
+                  <option value="हिन्दी">हिन्दी</option>
+                  <option value="ಕನ್ನಡ">ಕನ್ನಡ</option>
+                  <option value="മലയാളം">മലയാളം</option>
+                  <option value="मराठी">मराठी</option>
+                  <option value="ਪੰਜਾਬੀ">ਪੰਜਾਬੀ</option>
+                  <option value="Português">Português</option>
+                  <option value="Русский">Русский</option>
+                  <option value="தமிழ்">தமிழ்</option>
+                  <option value="తెలుగు">తెలుగు</option>
+                  <option value="اردو">اردو</option>
+                </select>
+
+                <span class="duration-500 ease-in-out group-hover:rotate-180">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                    class="w-[16px] h-[16px] fill-white mt-3">
+                    <path
+                      d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                  </svg>
+                </span>
+
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <!-- mobile menus -->
+        <div id="navbarSlide"
+          class="w-full h-screen absolute top-24 -left-0 active:left-0 bg-[#ffffffa9] backdrop-blur-xl overflow-hidden hidden">
+          <div class="max-w-max h-full bg-bgPrimary absolute z-50 border-t border-t-universal border-opacity-50">
+            <div class="size-full grid px-6 gap-y-8">
+              <ul
+                class="navigation w-full h-auto mt-8 grid gap-y-2 items-start font-futuraMd *:px-4 *:py-2 *:text-white [&_li:hover]:rounded-sm [&_li]:w-auto [&_a]:pr-9 [&_a]:pl-2 [&_a]:py-2 [&_a:hover]:text-universal *:cursor-pointer">
+                <li><a class="navLink" href="#">Home</a></li>
+                <li><a class="navLink" href="#attendNow">Why AttendNow</a></li>
+                <li><a class="navLink" href="#benefit">Benefits</a></li>
+                <li><a class="navLink" href="#review">Reviews</a></li>
+                <li><a class="navLink" href="#price">Pricing</a></li>
+                <li><a class="navLink" href="./HTML/Blog/blog.html">Blog</a></li>
+                <li><a class="navLink" href="./HTML/ReqADemo/reqaDemo.html">Requesta Demo</a></li>
+                <li><a class="navLink" href="./HTML/LogIn/login.html" target="_blank">Login</a></li>
+              </ul>
+
+              <div>
+                <form
+                  class="group w-full h-auto outline-none font-futuraBk rounded-full inline-flex items-center justify-center bg-heroGradient">
+                  <select id="dropdownDividerButton"
+                    class="py-2 px-8 rounded-full bg-heroGradient bg-countryBtn text-white text-base outline-none border-none cursor-pointer appearance-none"
+                    data-dropdown-toggle="dropdownDivider">
+                    <option value="English">English</option>
+                    <option value="العربية">العربية</option>
+                    <option value="বাংলা">বাংলা</option>
+                    <option value="Español">Español</option>
+                    <option value="Français">Français</option>
+                    <option value="ગુજરાતી">ગુજરાતી</option>
+                    <option value="हिन्दी">हिन्दी</option>
+                    <option value="ಕನ್ನಡ">ಕನ್ನಡ</option>
+                    <option value="മലയാളം">മലയാളം</option>
+                    <option value="मराठी">मराठी</option>
+                    <option value="ਪੰਜਾਬੀ">ਪੰਜਾਬੀ</option>
+                    <option value="Português">Português</option>
+                    <option value="Русский">Русский</option>
+                    <option value="தமிழ்">தமிழ்</option>
+                    <option value="తెలుగు">తెలుగు</option>
+                    <option value="اردو">اردو</option>
+                  </select>
+                  <span class="px-4 duration-500 ease-in-out group-hover:rotate-180">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-[16px] h-[16px] fill-white">
+                      <path
+                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                    </svg>
+                  </span>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- *** hamburger *** -->
+        <button id="hamburger"
+          class="group lg:hidden bg-transparent grid gap-1.5 place-items-end transition duration-300 ease-in *:transition *:duration-500 *:ease-in-out">
+          <span class="line line1 "></span>
+          <span class="line line2 "></span>
+          <span class="line line3 "></span>
+        </button>
+
+      </div>
+    </header>
+
+
+
+
+    <!-- =======================
+    *** Main/Hero Section *** 2xl:max-w-full 
+    ======================== -->
+    <main class=" bg-heroGradient z-50  relative">
+      <div
+        class="absolute inset-0 -z-40 h-full w-full bg-transparent bg-[linear-gradient(to_right,#ffffff12_1px,transparent_1px),linear-gradient(to_bottom,#ffffff12_1px,transparent_1px)] bg-[size:6rem_4rem]">
+      </div>
+
+      <div
+        class="w-full xl:max-w-7xl mx-auto py-28 px-6 md:px-16 2xl:px-0 block lg:flex md:flex-row-reverse items-center justify-between static z-50">
+        <!-- Right Side -->
+        <div class="lg:mb-0 mb-14">
+          <center>
+            <img class="shrink-0" src="./assets/mainBg.png" loading="lazy" alt="hero image...">
+          </center>
+        </div>
+
+        <!-- Left Side -->
+        <div class="place-items-center">
+          <div class="place-items-center lg:place-items-start text-center lg:text-start lg:max-w-2xl mx-auto">
+            <h1 class="w-full text-6xl text-pretty text-white font-futuraMd font-bold leading-none md:leading-tight">
+              Attendance simplified, anywhere anytime
+            </h1>
+            <div class="tracking-wide px-8 py-8">
+              <ul
+                class="text-white text-2xl font-futuraLg [&_li]:flex [&_li]:items-center [&_li]:justify-center lg:[&_li]:justify-start lg:[&_li]:text-start [&_li]:py-1 [&_img]:size-6 [&_img]:mr-3 [&_img]:hidden lg:[&_img]:block">
+                <li>
+                  <img src="./assets/mainCheck.png" loading="lazy" alt="..list_image...">
+                  <p>Mark Attendance with Geotagging</p>
+                </li>
+                <li class="py-0">
+                  <img src="./assets/mainCheck.png" loading="lazy" alt="..list_image...">
+                  <p>Location Tracking</p>
+                </li>
+                <li>
+                  <img src="./assets/mainCheck.png" loading="lazy" alt="..list_image...">
+                  <p>Geofencing</p>
+                </li>
+                <li class="py-0">
+                  <img src="./assets/mainCheck.png" loading="lazy" alt="..list_image...">
+                  <p>Leave Management</p>
+                </li>
+                <li>
+                  <img src="./assets/mainCheck.png" loading="lazy" alt="..list_image...">
+                  <p>Multi-lingual</p>
+                </li>
+              </ul>
+            </div>
+            <div class="w-full">
+              <a class="px-14 py-3 font-sans text-xl tracking-tight rounded-full duration-150 ease-linear border-2 border-white text-white bg-bgPrimary hover:bg-white hover:text-universal"
+                href="./HTML/ReqADemo/reqaDemo.html">Request a Demo</a>
+            </div>
+
+            <div class="text-white py-8 mt-4">
+              <span class="text-2xl">Try it yourself. Download now.</span>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <!--Main shap divider -->
+      <div class="custom-shape-divider-bottom-1732367268">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            opacity=".25" class="shape-fill"></path>
+          <path
+            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            opacity=".5" class="shape-fill"></path>
+          <path
+            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+            class="shape-fill"></path>
+        </svg>
+      </div>
+    </main>
+
+
+
+
+    <!-- Back to Top  -->
+    <div class="size-full">
+      <a class="size-12 rounded-full ring ring-bgPrimary bg-bgPrimary flex items-center justify-center font-futuraBk fixed right-3 bottom-2 z-[999999] md:bottom-14 text-sm text-bgSecondary font-light"
+        href="#">
+        <i class="fa-solid fa-angles-up text-textPrimary text-2xl"></i>
+        <div
+          class="bg-bgPrimary size-12 animate-ping transition duration-300 ease-linear rounded-full flex items-center justify-center fixed right-3 bottom-2 md:bottom-14">
+        </div>
+      </a>
+    </div>
+
+
+
+
+    <!-- =======================
+    *** Branding Section ***
+    ======================== -->
+    <section class="w-full xl:max-w-7xl mx-auto py-16 px-6 md:px-16  2xl:px-0">
+      <marquee behavior="scroll-smooth" direction="ltr">
+        <div class="slide gap-8 *:cursor-pointer flex justify-center items-center xl:justify-between">
+          <img src=" ./assets/brandImgs/img-1.jpg" loading="lazy" alt="brand">
+          <img src="./assets/brandImgs/img-2.jpg" loading="lazy" alt="brand">
+          <img src="./assets/brandImgs/img-3.jpg" loading="lazy" alt="brand">
+          <img src="./assets/brandImgs/img-4.jpg" loading="lazy" alt="brand">
+          <img src="./assets/brandImgs/img-5.jpg" loading="lazy" alt="brand">
+          <img src="./assets/brandImgs/img-1.jpg" loading="lazy" alt="brand">
+          <img src="./assets/brandImgs/img-2.jpg" loading="lazy" alt="brand">
+          <img src="./assets/brandImgs/img-3.jpg" loading="lazy" alt="brand">
+          <img src="./assets/brandImgs/img-4.jpg" loading="lazy" alt="brand">
+          <img src="./assets/brandImgs/img-5.jpg" loading="lazy" alt="brand">
+          <img src="./assets/brandImgs/img-1.jpg" loading="lazy" alt="brand">
+          <img src="./assets/brandImgs/img-2.jpg" loading="lazy" alt="brand">
+          <img src="./assets/brandImgs/img-3.jpg" loading="lazy" alt="brand">
+          <img src="./assets/brandImgs/img-4.jpg" loading="lazy" alt="brand">
+          <img src="./assets/brandImgs/img-5.jpg" loading="lazy" alt="brand">
+          <img src="./assets/brandImgs/img-1.jpg" loading="lazy" alt="brand">
+          <img src="./assets/brandImgs/img-2.jpg" loading="lazy" alt="brand">
+          <img src="./assets/brandImgs/img-3.jpg" loading="lazy" alt="brand">
+          <img src="./assets/brandImgs/img-4.jpg" loading="lazy" alt="brand">
+          <img src="./assets/brandImgs/img-5.jpg" loading="lazy" alt="brand">
+        </div>
+      </marquee>
+    </section>
+
+
+
+
+
+    <!-- =======================
+    *** About Section ***
+    ======================== -->
+    <!-- <div class="background">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div> -->
+    <section id="attendNow" class="aboutBG  relative">
+      <div class="absolute top-0 -z-10 h-full w-full bg-white overflow-hidden md:overflow-visible">
+        <div
+          class="absolute bottom-auto right-auto left-0 top-0 size-[500px] translate-x-[35%] translate-y-[10%] rounded-full bg-bgSecondary opacity-50 blur-[100px]">
+        </div>
+        <div
+          class=" absolute top-auto left-auto right-0 bottom-0 size-[200px] -translate-x-[20%] translate-y-[0%] rounded-full bg-bgSecondary opacity-50 blur-[100px]">
+        </div>
+      </div>
+
+      <div
+        class="w-full xl:max-w-7xl mx-auto py-28 px-6 md:px-16 2xl:px-0 block xl:flex justify-between items-center place-items-center *:size-fit">
+        <div class="image xl:w-full">
+          <img class="w-[1000px]" src="./assets/aboutprimaryBg.png" loading="lazy" alt="about...">
+        </div>
+        <div class="block md:place-items-end xl:place-items-start">
+          <h1
+            class="size-full sm:w-[450px] md:w-[600px] md:h-auto font-futuraBk place-items-center text-center xl:text-left text-3xl md:text-5xl md:leading-tight lg:leading-snug my-8 md:my-0 py-8">
+            Reinventing <strong class="text-universal font-futuraMd font-bold">Employee Attendance</strong> with
+            Location Tracking
+          </h1>
+
+          <p class="text-lg font-futuraBk text-textSecondary font-light tracking-wider text-center sm:text-start md:text-justify leading-loose 
+          w-full h-auto sm:w-[550px] md:w-[600px] md:ml-12 overflow-auto">
+            With GPS technology, employers can track their employees in real-time, identify their location, monitor
+            their movement, and track their arrival and departure times from any location. GPS technology can also be
+            used to generate automatic attendance records, determine if employees are taking the most effective route
+            to
+            their destination, and ensure their safety while on the job. AttendNow provides all of the above even when
+            the users have poor or no network and integrates with payroll and leave management.
+          </p>
+        </div>
+      </div>
+
+      <!-- about shap devider  -->
+      <div class="custom-shape-divider-bottom-1732348233">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- =======================
+    *** Benefits Section *** style="background: url('./assets/TestimonialsBg.jpg') no-repeat center center/cover"
+    ======================== -->
+    <section id="benefit" class="bg-bgSuccess relative">
+      <div class="relative h-full w-full bg-slate-950">
+        <div
+          class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]">
+        </div>
+      </div>
+      <!-- service shap devider  -->
+      <div class="custom-shape-divider-top-1732348142 relative">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z" class="shape-fill"></path>
+        </svg>
+      </div>
+
+      <div class="w-full xl:max-w-7xl mx-auto py-[100px] px-6 md:px-16 xl:px-0">
+        <div class="mb-28 text-center max-w-md md:max-w-xl mx-auto">
+          <h2 class="text-bgPrimary font-futuraBk text-3xl md:text-5xl md:leading-tight lg:leading-snugt">
+            How AttendNow can help your business</h2>
+          <p class="mt-6 text-lg text-center leading-tight font-futuraBk text-textSecondary">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed non tenetur nihil quibusdam temporas.
+          </p>
+        </div>
+
+        <!-- boxes -->
+        <div
+          class="grid place-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-8 [&_div]:w-[285px] [&_div]:h-[292.5px] [&_div]:bg-universal [&_div]:rounded-2xl">
+          <div class="servBox box-1">
+            <h1 class="text-justify text-2xl font-futuraBk tracking-tight max-w-[189.2px] px-4 py-6 text-white">
+              Attendance
+              with
+              Geotagging</h1>
+            <p class="text-lg px-4 leading-relaxed text-neutral-200">
+              Give flexibility to your sales reps to mark attendance from anywhere so that they can have more
+              meetings and generate more business for you.
+            </p>
+          </div>
+          <div class="servBox box-2">
+            <h1 class="w-min font-futuraBk text-2xl tracking-tighter max-w-[186.89px] px-4 py-6 text-white">Location
+              Tracking</h1>
+            <p class="text-justify text-lg px-4 leading-relaxed text-neutral-200">
+              Increase workforce efficiency by having better visibility and insights into what's happening on job.
+              Allocate resources more effectively and reduce travel costs.
+            </p>
+          </div>
+          <div class="servBox box-3">
+            <h1 class="w-min font-futuraBk text-2xl tracking-tighter max-w-[186.89px] px-4 py-6 text-white">Face
+              Recognition</h1>
+            <p class="text-justify text-lg px-4 leading-relaxed text-neutral-200">
+              Be rest assured that employees don't claim a colleague's attendance. Eliminate issues related to buddy
+              punching and get additional layer of security.
+            </p>
+          </div>
+          <div class="servBox box-4">
+            <h1 class="w-min font-futuraBk text-2xl tracking-tighter max-w-[186.89px] px-4 py-6 text-white">
+              Geofencing</h1>
+            <p class="text-justify text-lg px-4 leading-relaxed text-neutral-200">
+              Get accurate record of an employee's working hours, making it easier to analyze and identify patterns in
+              attendance. Get the exact location of employees entering or leaving the premises
+            </p>
+          </div>
+          <div class="servBox box-5">
+            <h1 class="w-min font-futuraBk text-2xl tracking-tighter max-w-[186.89px] px-4 py-6 text-white">
+              Leave Management</h1>
+            <p class="text-justify text-lg px-4 leading-relaxed text-neutral-200">
+              Reduce administration and paperwork enabling HR personnel to manage absences more efficiently. Improve
+              resources planning and reduce disruption
+            </p>
+          </div>
+          <div class="servBox box-6">
+            <h1 class="w-min font-futuraBk text-2xl tracking-tighter max-w-[186.89px] px-4 py-6 text-white">
+              Roster</h1>
+            <p class="text-justify text-lg px-4 leading-relaxed text-neutral-200">
+              Get better accuracy level than traditional methods. Employees no longer need to fill in a paper
+              timesheet, reducing the risk of errors. Increases productivity and focus resources on growth.
+            </p>
+          </div>
+          <div class="servBox box-7">
+            <h1 class="w-min font-futuraBk text-2xl tracking-tighter max-w-[186.89px] px-4 py-6 text-white">
+              Salary Calculation</h1>
+            <p class="text-justify text-lg px-4 leading-relaxed text-neutral-200">
+              Quickly and accurately calculate salaries and deductions, ensuring efficient use of resources and
+              improved employee satisfaction
+            </p>
+          </div>
+          <div class="servBox box-8">
+            <h1 class="w-min font-futuraBk text-2xl tracking-tighter max-w-[186.89px] px-4 py-6 text-white">Payslip
+              Generation</h1>
+            <p class="text-justify text-lg px-4 leading-relaxed text-neutral-200">
+              Eliminate the need for controller and HR staff to manually generate documents and calculations, reducing
+              the amount of administrative overhead.
+            </p>
+          </div>
+          <div class="servBox box-9">
+            <h1 class="font-futuraBk text-2xl tracking-tighter max-w-[189.2px] px-4 py-6 text-white">
+              Timesheet with Approvals</h1>
+            <p class="text-justify text-lg px-4 leading-relaxed text-neutral-200">
+              Encourage employees to stay focused and productive throughout their workdays. This results in increased
+              efficiency and a greater output from workers.
+            </p>
+          </div>
+          <div class="servBox box-10">
+            <h1 class="w-min font-futuraBk text-2xl tracking-tighter max-w-[186.89px] px-4 py-6 text-white">
+              Selfie Attendance</h1>
+            <p class="text-justify text-lg px-4 leading-relaxed text-neutral-200">
+              Selfies make attendance tracking is more secure, as only registered individuals can take attendance.
+              Photos look more human and are harder to manipulate.
+            </p>
+          </div>
+          <div class="servBox box-11">
+            <h1 class="w-min font-futuraBk text-2xl tracking-tighter max-w-[186.89px] px-4 py-6 text-white">Works
+              Offline</h1>
+            <p class="text-justify text-lg px-4 leading-relaxed text-neutral-200">
+              Be rest assured that your attendance records are kept safe and secure in remote areas having poor
+              network or no network at all. Get the same accuracy as that of online.
+            </p>
+          </div>
+          <div class="servBox box-12">
+            <h1 class="w-min font-futuraBk text-2xl tracking-tighter max-w-[186.89px] px-4 py-6 text-white">
+              Multilingual
+            </h1>
+            <p class="text-justify text-lg px-4 leading-relaxed text-neutral-200">
+              Employees no longer need to waste time trying to figure out how to use unfamiliar language to finish
+              their tasks quickly and efficiently. AttendNow currently supports English and Hindi. More languages
+              coming soon.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    <!-- =======================
+    ***  Reviews Section ***
+    ======================== -->
+    <section id="review" class="relavtive">
+      <div class=" w-full xl:max-w-7xl mx-auto py-24 px-6 md:px-16">
+        <div class="text-center max-w-md mx-auto">
+          <h2 class="text-4xl md:text-5xl text- leading-snug font-futuraBk">Satisfied Customers</h2>
+          <p class="mt-4 text-lg text-center leading-tight font-futuraBk text-textSecondary">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed non tenetur nihil quibusdam temporas.
+          </p>
+        </div>
+
+        <!-- slider  -->
+        <div id="slider" class="relative overflow-hidden">
+          <!-- Left/Right Button -->
+          <div
+            class="p-2 place-self-end *:border *:mx-2 *:rounded-full *:size-12 *:ring-1 *:ring-bgSecondary *:text-bgSecondary">
+            <button type="button" class="prev group hover:bg-bgSecondary">
+              <i class="fa-solid fa-chevron-left group-hover:text-white"></i>
+            </button>
+            <button type="button" class="next sliderNavNext group hover:bg-bgSecondary">
+              <i class="fa-solid fa-chevron-right group-hover:text-white"></i>
+            </button>
+          </div>
+
+          <!-- Card Review/Indicators -->
+          <div id="sliderContainer" class="w-full overflow-hidden">
+            <div
+              class="w-screen h-max no-scrollbar snap-center overflow-x-scroll *:relative top-0 *:gap-8 py-8 mx-8 flex place-items-center justify-items-center">
+              <!-- slide -1  -->
+              <div
+                class="box-1 boxes w-full max-w-[346px] h-max mx-auto xl:mt-0 mt-8 px-6 py-5 border-[1px] border-bgSecondary rounded-[2.5rem]">
+                <div class="size-fit py-5">
+                  <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+                  <p class="text-lg text-center leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+                </div>
+                <div class="place-content-center [&>div]:place-items-center py-4">
+                  <div class="profileImg">
+                    <img class="size-14 aspect-square object-cover rounded-full ring-2 ring-bgSecondary drop-shadow-sm"
+                      src="./assets/ProfilePic/profile_1.jpg" loading="lazy" alt="profile...">
+                  </div>
+                  <div class="profileText py-3">
+                    <h4 class="font-semibold tracking-tighter">Sunil Shinde</h4>
+                  </div>
+                  <div class="text-center [&_i]:text-bgSecondary">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+
+              <!-- slide -2 -->
+              <div
+                class="box-2 boxes w-full max-w-[346px] h-max mx-auto xl:mt-0 mt-8 px-6 py-5  border-[1px] border-bgSecondary rounded-[2.5rem]">
+                <div class="size-fit py-5">
+                  <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+                  <p class="text-lg text-center leading-loose font-futuraMd text-gray-500">
+                    app is easy to access and also cost effect. The backend support is great. Go
+                    for
+                    it.
+                  </p>
+                </div>
+                <div class="place-content-center [&>div]:place-items-center py-4">
+                  <div class="profileImg">
+                    <img class="size-14 aspect-square object-cover rounded-full ring-2 ring-bgSecondary drop-shadow-sm"
+                      src="./assets/ProfilePic/profile_2.jpg" loading="lazy" alt="profile...">
+                  </div>
+                  <div class="profileText py-3">
+                    <h4 class="font-semibold tracking-tighter">Sunil Shinde</h4>
+                  </div>
+                  <div class="text-center [&_i]:text-bgSecondary">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+
+              <!-- slide -3  -->
+              <div
+                class="box-3 boxes  w-full max-w-[346px] h-max mx-auto xl:mt-0 mt-8 px-6 py-5  border-[1px] border-bgSecondary rounded-[2.5rem]">
+                <div class="size-fit py-5">
+                  <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+                  <p class="text-lg text-center leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+                </div>
+                <div class="place-content-center [&>div]:place-items-center py-4">
+                  <div class="profileImg">
+                    <img class="size-14 aspect-square object-cover rounded-full ring-2 ring-bgSecondary drop-shadow-sm"
+                      src="./assets/ProfilePic/profile_3.jpg" loading="lazy" alt="profile...">
+                  </div>
+                  <div class="profileText py-3">
+                    <h4 class="font-semibold tracking-tighter">Sunil Shinde</h4>
+                  </div>
+                  <div class="text-center [&_i]:text-bgSecondary">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+
+              <!-- slide -4  -->
+              <div
+                class="box-4 boxes  w-full max-w-[346px] h-max mx-auto xl:mt-0 mt-8 px-6 py-5  border-[1px] border-bgSecondary rounded-[2.5rem]">
+
+                <div class="size-fit py-5">
+                  <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+                  <p class="text-lg text-center leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+                </div>
+                <div class="place-content-center [&>div]:place-items-center py-4">
+                  <div class="profileImg">
+                    <img class="size-14 aspect-square object-cover rounded-full ring-2 ring-bgSecondary drop-shadow-sm"
+                      src="./assets/ProfilePic/profile_2.jpg" loading="lazy" alt="profile...">
+                  </div>
+                  <div class="profileText py-3">
+                    <h4 class="font-semibold tracking-tighter">Sunil Shinde</h4>
+                  </div>
+                  <div class="text-center [&_i]:text-bgSecondary">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+
+              <!-- slide -5  -->
+              <div
+                class="box-5 boxes w-full max-w-[346px] h-max mx-auto xl:mt-0 mt-8 px-6 py-5  border-[1px] border-bgSecondary rounded-[2.5rem]">
+                <div class="size-fit py-5">
+                  <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+                  <p class="text-lg text-center leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+                </div>
+                <div class="place-content-center [&>div]:place-items-center py-4">
+                  <div class="profileImg">
+                    <img class="size-14 aspect-square object-cover rounded-full ring-2 ring-bgSecondary drop-shadow-sm"
+                      src="./assets/ProfilePic/profile_1.jpg" loading="lazy" alt="profile...">
+                  </div>
+                  <div class="profileText py-3">
+                    <h4 class="font-semibold tracking-tighter">Sunil Shinde</h4>
+                  </div>
+                  <div class="text-center [&_i]:text-bgSecondary">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Button Indicator -->
+          <div id="slider-Indicators"
+            class="py-6 flex items-center justify-center *:mx-1 *:size-4 *:rounded-full *:ring *:ring-bgSecondary [&_button:hover]:bg-slate-200">
+            <button type="button" class="active bg-bgSecondary"></button>
+            <button type="button"></button>
+            <button type="button"></button>
+            <button type="button"></button>
+            <button type="button"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- =======================
+    ***  Price Section ***
+    ======================== -->
+    <section id="price" class="bg-bgSuccess">
+      <div class="justify-items-center w-full xl:max-w-7xl mx-auto py-24 px-6 md:px-16 ">
+        <div class="mb-24 text-center max-w-md mx-auto">
+          <h2 class="text-5xl md:text-5xl text- leading-snug font-futuraBk">Pricing Plans</h2>
+          <p class="mt-4 text-lg text-center leading-tight font-futuraBk text-gray-500">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed non tenetur nihil quibusdam temporas.
+          </p>
+        </div>
+        <div
+          class=" w-full max-w-full mx-auto block mt-8 md:mt-0 md:grid grid-cols-1 md:grid-cols-2 lg:flex gap-x-6 place-items-center last:row-span-2 *:shadow-lg">
+          <!-- car1 -->
+          <div
+            class="box-1 bg-white w-full max-w-[375px] h-max mx-auto px-4 py-10 border-[1px] border-gray-200 font-futuraMd text-gray-500 rounded-md">
+            <div class="text-center">
+              <h4 class="text-xl text-gray-900 font-futuraBk font-semibold tracking-[.4rem]">BASIC</h4>
+              <P class="text-paraTextmd font-futuraMd py-3 tracking-wide">Attendance</P>
+              <h3 class="text-2xl text-gray-800 mt-1 font-futuraBk font-semibold tracking-wide">₹ 75/user/month</h3>
+            </div>
+
+            <div class="py-8 *:list-none *:flex *:items-center *:justify-start">
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
+                  Attendance with Geo Tagging
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
+                  Geofence
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
+                  Payroll Calculation
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
+                  Dynamic Work Calendar
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
+                  Selfie Attendance
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
+                  Multiple Punch in and Punch out
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
+                  Work Offline
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
+                  Roster Attendance
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
+                  Overtime
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
+                  Standard Salary Report
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
+                  Holidays management
+                </span>
+              </li>
+            </div>
+
+            <div class="text-center mt-0 lg:mt-16">
+              <div class="">
+                <a href="./HTML/ReqADemo/reqaDemo.html"
+                  class="font-futuraMd font-normal tracking-wide border-2 border-bgPrimary bg-white hover:bg-bgPrimary hover:text-white duration-150 ease-linear px-8 py-2 rounded-full">Request
+                  A Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- card2 -->
+          <div
+            class="box-2 w-full max-w-[375px] mx-auto h-max my-4 lg:my-0 px-4 py-10 border-[1px] border-gray-200 bg-universal font-futuraMd rounded-md">
+            <div class="text-center">
+              <h4 class="text-xl text-gray-100 font-futuraBk font-semibold tracking-[.4rem]">ADVANCED</h4>
+              <P class="text-paraTextmd text-gray-300 font-futuraMd py-3 tracking-tight">Basic + Location Tracking &
+                Timesheet
+              </P>
+              <h3 class="text-3xl mt-1 text-white font-futuraBk font-bold tracking-tight">₹ 150/user/month</h3>
+            </div>
+
+            <div class="py-8 text-white *:list-none *:flex *:items-center *:justify-start">
+              <li>
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
+                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                  Attendance with Geo Tagging
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
+                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                  Geofence
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
+                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                  Payroll Calculation
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
+                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                  Dynamic Work Calendar
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
+                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                  Selfie Attendance
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
+                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                  Multiple Punch in and Punch out
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
+                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                  Work Offline
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
+                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                  Roster Attendance
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
+                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                  Overtime
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
+                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                  Standard Salary Report
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
+                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                  Holidays management
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
+                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                  Location Tracking
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
+                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                  Distance Travelled Summary
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
+                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                  Timesheet
+                </span>
+              </li>
+            </div>
+
+            <div class="text-center mt-auto xl:mt-16">
+              <div class="">
+                <a href="./HTML/ReqADemo/reqaDemo.html"
+                  class="font-normal font-futuraMd tracking-wide border-2 border-bgPrimary hover:border-[1px] ring-2 ring-bgPrimary bg-bgPrimary text-white duration-150 ease-in px-8 py-2 rounded-3xl">Request
+                  A Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- card3 -->
+          <div
+            class="box-3 col-span-2 bg-white w-full max-w-[375px] mx-auto h-max px-4 py-10 border-[1px] border-gray-200 font-futuraMd text-gray-500 rounded-md">
+            <div class="text-center">
+              <h4 class="text-xl text-gray-900 font-futuraBk font-semibold tracking-[.4rem]">ENTERPRISE</h4>
+              <P class="text-paraTextmd font-futuraMd py-3 tracking-wide">Advanced + Custom Forms + Support</P>
+              <h3 class="text-2xl text-gray-800 mt-1 font-futuraBk font-semibold tracking-wide">₹ 250/user/month</h3>
+            </div>
+
+            <div class="py-8 *:list-none *:flex *:items-center *:justify-start">
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
+                  Attendance with Geo Tagging
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
+                  Geofence
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
+                  Payroll Calculation
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
+                  Dynamic Work Calendar
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
+                  Selfie Attendance
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
+                  Multiple Punch in and Punch out
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
+                  Work Offline
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
+                  Roster Attendance
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
+                  Overtime
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
+                  Standard Salary Report
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
+                  Holidays management
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
+                  Location Tracking
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-1 leading-[1.7rem] text-neutral-700">
+                  Distance Travelled Summary
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
+                  Timesheet
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
+                  Custom Forms
+                </span>
+              </li>
+              <li>
+                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
+                  Dedicated Support
+                </span>
+              </li>
+            </div>
+
+            <div class="text-center">
+              <div class="">
+                <a href="./HTML/ReqADemo/reqaDemo.html"
+                  class="font-normal font-futuraMd tracking-wide border-2 border-bgPrimary bg-white hover:bg-bgPrimary hover:text-white duration-150 ease-linear px-8 py-2 rounded-3xl">Request
+                  A Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    <!-- =======================
+    ***  Footer Section ***
+    ======================== -->
+    <footer class="bg-bgSecondary py-16">
+      <div class="w-full xl:max-w-7xl mx-auto grid grid-row-2 px-6 md:px-16">
+        <div class="grid sm:grid-cols-3 sm:py-10 py-8">
+          <div class="rightSide">
+            <div class="logo block md:flex">
+              <svg preserveAspectRatio="xMidYMid meet" data-bbox="0 0 142 85" viewBox="0 0 142 85" width="45"
+                xmlns="http://www.w3.org/2000/svg" data-type="color" role="img" aria-label="AttendNow">
+                <g>
+                  <path fill="#4329ba"
+                    d="M86 42.5C86 65.972 66.748 85 43 85S0 65.972 0 42.5 19.252 0 43 0s43 19.028 43 42.5z"
+                    data-color="1"></path>
+                  <path fill="#ac3cf7"
+                    d="M142 42.298c0 23.36-18.937 42.298-42.298 42.298-23.36 0-42.298-18.937-42.298-42.298C57.404 18.938 76.341 0 99.702 0 123.062 0 142 18.937 142 42.298z"
+                    data-color="2"></path>
+                  <path fill="#ffffff"
+                    d="M81.404 39.968 95.656 54.22a3.848 3.848 0 1 1-5.442 5.442L75.963 45.41a3.848 3.848 0 1 1 5.442-5.442z"
+                    data-color="3"></path>
+                  <path fill="#ffffff"
+                    d="M124.44 30.855 95.678 59.62a3.848 3.848 0 1 1-5.442-5.442L119 25.413a3.848 3.848 0 1 1 5.442 5.442z"
+                    data-color="3"></path>
+                </g>
+              </svg>
+              <div class="md:ml-3 mt-2 md:mt-0">
+                <h2 class="text-white font-semibold text-lg tracking-tight">AttendNow Tech Solutions Private
+                  Limited</h2>
+              </div>
+            </div>
+            <div class="py-6 font-futuraMd text-white md:ml-14">
+              <h4 class="mb-2">
+                <a href="#" class="hover:text-gray-100 duration-75 ease-linear" title="Call Now"><span
+                    class="font-futuraBk font-semibold">Tel: </span>
+                  +91 90283 23769</a>
+              </h4>
+              <h4>
+                <a href="#" class="hover:text-gray-100 duration-75 ease-linear" title="Email Now">
+                  <span class="font-futuraBk font-semibold">Email:
+                  </span> info@attendnow.in</a>
+              </h4>
+            </div>
+            <div class="text-paraTextxl text-white md:ml-14">
+              <a href="#" class="mr-2"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="leftSide place-items-start sm:place-items-end mt-4 sm:mt-0">
+            <ul class="font-futuraMd">
+              <li class="text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Home</a>
+              </li>
+              <li class="py-2 text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Why AttendNow</a>
+              </li>
+              <li class="text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Benefits</a>
+              </li>
+              <li class="py-2 text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Reviews</a>
+              </li>
+              <li class="py-2 text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Pricing</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="leftSide place-items-start sm:place-items-end mt-4 sm:mt-0">
+            <ul class="font-futuraMd">
+              <li class="text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="py-2 text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Terms & Conditions</a>
+              </li>
+              <li class="text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Refund Policy</a>
+              </li>
+              <li class="py-2 text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Shipping Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="place-items-center pt-4">
+          <p class="text-paraTextmd font-futuraMd font-normal text-center text-white">© 2024 by AttendNow Tech
+            Solutions Private
+            Limited.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+
+
+
+  <!-- swiffy slider  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
+    defer></script>
+  <!-- script  -->
+  <script src="./JS//script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- fontfamily -->
+  <link href="https://db.onlinewebfonts.com/c/7fdb09ff5a96f39768f311d5471d68a9?family=FuturaLig" rel="stylesheet">
+  <link href="https://db.onlinewebfonts.com/c/fd6e6c30c7d355528ba9428eea942445?family=Futura+Book" rel="stylesheet">
+  <link href="https://db.onlinewebfonts.com/c/77d394fa0c1103c648f880b77cb4a32f?family=Futura+LT+W01+Medium"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css"
+    rel="stylesheet" crossorigin="anonymous">
+
+  <title>AttendNow</title>
+
+  <!-- style css  -->
+  <link rel="stylesheet" href="../../CSS/style.css">
+  <!-- global css  -->
+  <link rel="stylesheet" href="../../CSS/global.css">
+
+  <!-- Font Awesome CDN link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="font-futura">
+  <div class="app-container">
+
+    <!-- =======================
+    *** Header/Navbar Section ***
+    ======================== -->
+    <header id="home" class="w-full h-[97px] sticky top-0 left-0 z-[9999999] drop-shadow-lg bg-bgSecondary">
+      <div
+        class="w-full xl:max-w-7xl 2xl:max-w-full mx-auto py-2 px-4 md:px-8 2xl:px-10 flex justify-between items-center">
+        <div class="logo flex items-center justify-start cursor-pointer">
+          <a href="../../index.html">
+            <div>
+              <svg preserveAspectRatio="xMidYMid meet" data-bbox="0 0 142 85" viewBox="0 0 142 85" height="85"
+                width="70" xmlns="http://www.w3.org/2000/svg" data-type="color" role="img" aria-label="AttendNow">
+                <g>
+                  <path fill="#BB2323"
+                    d="M86 42.5C86 65.972 66.748 85 43 85S0 65.972 0 42.5 19.252 0 43 0s43 19.028 43 42.5z"
+                    data-color="1"></path>
+                  <path fill="#DC2626"
+                    d="M142 42.298c0 23.36-18.937 42.298-42.298 42.298-23.36 0-42.298-18.937-42.298-42.298C57.404 18.938 76.341 0 99.702 0 123.062 0 142 18.937 142 42.298z"
+                    data-color="2"></path>
+                  <path fill="#ffffff"
+                    d="M81.404 39.968 95.656 54.22a3.848 3.848 0 1 1-5.442 5.442L75.963 45.41a3.848 3.848 0 1 1 5.442-5.442z"
+                    data-color="3"></path>
+                  <path fill="#ffffff"
+                    d="M124.44 30.855 95.678 59.62a3.848 3.848 0 1 1-5.442-5.442L119 25.413a3.848 3.848 0 1 1 5.442 5.442z"
+                    data-color="3"></path>
+                </g>
+              </svg>
+            </div>
+            <div class="text-paraTextxl ml-3">
+              <h2 class="text-white font-futuraBk text-xl md:text-2xl tracking-wide"><a
+                  href="../../index.html">AttendNow</a></h2>
+            </div>
+          </a>
+        </div>
+
+        <nav class="flex items-center justify-center">
+          <div class="hidden lg:block">
+            <div class="flex items-center justify-between">
+              <ul
+                class="navigation mr-16 flex font-futuraBk tracking-tighter text-white [&_a:hover]:text-gray-300 lg:mr-4 min-[1285px]:mr-16 min-[1024px]:text-base min-[1040px]:text-paraTextmd min-[1070px]:text-lg gap-4 xl:gap-8">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="#attendNow">Why AttendNow</a></li>
+                <li><a href="#benefit">Benefits</a></li>
+                <li><a href="#review">Reviews</a></li>
+                <li><a href="#price">Pricing</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="../ReqADemo/reqaDemo.html">Requesta Demo</a></li>
+                <li><a href="../LogIn/login.html">Login</a></li>
+              </ul>
+              <form
+                class="group w-[150px] max-w-sm bg-countryBtn outline-none font-futuraBk rounded-lg inline-flex cursor-pointer">
+                <select id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider"
+                  class="bg-countryBtn text-white text-base px-1 ml-5 py-2 outline-none border-none appearance-none cursor-pointer">
+
+                  <option value="English" selected>English</option>
+                  <option value="العربية">العربية</option>
+                  <option value="বাংলা">বাংলা</option>
+                  <option value="Español">Español</option>
+                  <option value="Français">Français</option>
+                  <option value="ગુજરાતી">ગુજરાતી</option>
+                  <option value="हिन्दी">हिन्दी</option>
+                  <option value="ಕನ್ನಡ">ಕನ್ನಡ</option>
+                  <option value="മലയാളം">മലയാളം</option>
+                  <option value="मराठी">मराठी</option>
+                  <option value="ਪੰਜਾਬੀ">ਪੰਜਾਬੀ</option>
+                  <option value="Português">Português</option>
+                  <option value="Русский">Русский</option>
+                  <option value="தமிழ்">தமிழ்</option>
+                  <option value="తెలుగు">తెలుగు</option>
+                  <option value="اردو">اردو</option>
+                </select>
+
+                <span class="duration-500 ease-in-out group-hover:rotate-180">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                    class="w-[16px] h-[16px] fill-white mt-3">
+                    <path
+                      d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                  </svg>
+                </span>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <!-- mobile menus -->
+        <div id="navbarSlide"
+          class="w-full h-screen absolute top-24 -left-0 active:left-0 bg-[#ffffffa9] backdrop-blur-xl overflow-hidden hidden">
+          <div class="max-w-max h-full bg-bgPrimary absolute z-50 border-t border-t-universal border-opacity-50">
+            <div class="size-full grid px-6 gap-y-8">
+              <ul
+                class="navigation w-full h-auto mt-8 grid gap-y-2 items-start font-futuraMd *:px-4 *:py-2 *:text-white [&_li:hover]:rounded-sm [&_li]:w-auto [&_a]:pr-9 [&_a]:pl-2 [&_a]:py-2 [&_a:hover]:text-universal *:cursor-pointer">
+                <li><a class="navLink" href="#">Home</a></li>
+                <li><a class="navLink" href="#attendNow">Why AttendNow</a></li>
+                <li><a class="navLink" href="#benefit">Benefits</a></li>
+                <li><a class="navLink" href="#review">Reviews</a></li>
+                <li><a class="navLink" href="#price">Pricing</a></li>
+                <li><a class="navLink" href="../Blog/blog.html">Blog</a></li>
+                <li><a class="navLink" href="../ReqADemo/reqaDemo.html">Requesta Demo</a></li>
+                <li><a class="navLink" href="../LogIn/login.html" target="_blank">Login</a></li>
+              </ul>
+
+              <div>
+                <form
+                  class="group w-full h-auto outline-none font-futuraBk rounded-full inline-flex items-center justify-center bg-heroGradient">
+                  <select id="dropdownDividerButton"
+                    class="py-2 px-8 rounded-full bg-heroGradient bg-countryBtn text-white text-base outline-none border-none cursor-pointer appearance-none"
+                    data-dropdown-toggle="dropdownDivider">
+                    <option value="English">English</option>
+                    <option value="العربية">العربية</option>
+                    <option value="বাংলা">বাংলা</option>
+                    <option value="Español">Español</option>
+                    <option value="Français">Français</option>
+                    <option value="ગુજરાતી">ગુજરાતી</option>
+                    <option value="हिन्दी">हिन्दी</option>
+                    <option value="ಕನ್ನಡ">ಕನ್ನಡ</option>
+                    <option value="മലയാളം">മലയാളം</option>
+                    <option value="मराठी">मराठी</option>
+                    <option value="ਪੰਜਾਬੀ">ਪੰਜਾਬੀ</option>
+                    <option value="Português">Português</option>
+                    <option value="Русский">Русский</option>
+                    <option value="தமிழ்">தமிழ்</option>
+                    <option value="తెలుగు">తెలుగు</option>
+                    <option value="اردو">اردو</option>
+                  </select>
+                  <span class="px-4 duration-500 ease-in-out group-hover:rotate-180">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-[16px] h-[16px] fill-white">
+                      <path
+                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                    </svg>
+                  </span>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- *** hamburger *** -->
+        <button id="hamburger"
+          class="group lg:hidden bg-transparent grid gap-1.5 place-items-end transition duration-300 ease-in *:transition *:duration-500 *:ease-in-out">
+          <span class="line line1 "></span>
+          <span class="line line2 "></span>
+          <span class="line line3 "></span>
+        </button>
+
+      </div>
+    </header>
+
+
+
+
+
+
+    <!-- =======================
+    ***  Blog Section ***
+    ======================== -->
+    <section class="relative shrink-0">
+      <div
+        class="blogMain grid items-center justify-center xl:max-w-7xl 2xl:max-w-full mx-auto py-16 px-6 md:px-16 2xl:px-28">
+        <h2 class=" strokText text-white drop-shadow-md text-9xl font-bold font-futuraBk">
+          Blogs
+        </h2>
+      </div>
+    </section>
+
+
+
+
+
+
+    <!-- =======================
+    latest blogs 
+    ======================= -->
+    <section id="attendNow" class="bg-aboutPrice">
+      <div class="w-full xl:max-w-7xl mx-auto py-16 px-6 md:px-16 2xl:px-0 grid grid-cols-1">
+        <div class="*:text-3xl mb-12 [md:*]:text5xl underline font-bold font-futuraMd">
+          <h3>Latest Blogs</h3>
+        </div>
+        <div class="size-full grid grid-cols-1 xl:grid-cols-2 gap-6 place-items-center">
+          <!-- Main blogs  -->
+          <div
+            class="max-w-max rounded-md [&_img]:bg-white [&_img]:p-2 [&_img]:shadow-sm [&_img]:rounded-3xl xl:p-3 [&_img]:aspect-video">
+            <img src="../../assets/blog/blog-4.jpg" width="" alt="blog image">
+            <div class="flex items-center justify-between py-2 px-4">
+              <div class="logo">
+                <a href="../../index.html" class="">
+                  <div class="flex items-center justify-center place-items-start size-fit">
+                    <svg preserveAspectRatio="xMidYMid meet" data-bbox="0 0 142 85" viewBox="0 0 142 85" width="40"
+                      xmlns="http://www.w3.org/2000/svg" data-type="color" role="img" aria-label="AttendNow">
+                      <g>
+                        <path fill="#BB2323"
+                          d="M86 42.5C86 65.972 66.748 85 43 85S0 65.972 0 42.5 19.252 0 43 0s43 19.028 43 42.5z"
+                          data-color="1"></path>
+                        <path fill="#DC2626"
+                          d="M142 42.298c0 23.36-18.937 42.298-42.298 42.298-23.36 0-42.298-18.937-42.298-42.298C57.404 18.938 76.341 0 99.702 0 123.062 0 142 18.937 142 42.298z"
+                          data-color="2"></path>
+                        <path fill="#ffffff"
+                          d="M81.404 39.968 95.656 54.22a3.848 3.848 0 1 1-5.442 5.442L75.963 45.41a3.848 3.848 0 1 1 5.442-5.442z"
+                          data-color="3"></path>
+                        <path fill="#ffffff"
+                          d="M124.44 30.855 95.678 59.62a3.848 3.848 0 1 1-5.442-5.442L119 25.413a3.848 3.848 0 1 1 5.442 5.442z"
+                          data-color="3"></path>
+                      </g>
+                    </svg>
+                    <div class="text-paraTextxl ml-2 xl:ml-3">
+                      <a class="text-bgPrimary font-futuraBk text-base md:text-xl tracking-wide"
+                        href="../../index.html">AttendNow</a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="relative">
+                <!-- Button to trigger the dropdown -->
+                <button class="relative size-10 hover:bg-gray-200 place-items-center rounded-full" type="button"
+                  id="dropdownDefaultButton" aria-haspopup="true" aria-expanded="false">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 512" width="5" aria-hidden="true">
+                    <path
+                      d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z" />
+                  </svg>
+                </button>
+
+                <!-- Dropdown content -->
+                <div id="dropdown"
+                  class="w-16 h-8 border bg-gray-200 rounded-sm shadow-sm grid place-items-center absolute -left-16 bottom-[.1px] "
+                  class="hidden" aria-labelledby="dropdownDefaultButton">
+                  <a href="#"><i class="fa-solid fa-share text-universal cursor-pointer"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-1 [&_h4]:text-xl [&_h4]:mb-4 [&_h4]:font-semibold px-4">
+              <h4>Streamline Workforce <mark class="bg-bgSecondary text-white p-1">Management</mark> with
+                Digital
+                Rostering:
+                Increased Accuracy,</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quia alias dolor nesciunt dicta
+                fugiat ratione illo laborum. Architecto voluptatem doloribus iusto distinctio alias quaerat maxime
+                saepe
+                sit fugiat doloremque, libero placeat assumenda aliquam ad dolores error, esse animi quasi eaque
+                obcaecati sunt reprehenderit! Deserunt aut autem consequatur tempora ducimus eligendi velit animi
+                dolore
+                eius, minima, soluta amet, illo officiis.
+                <a href="./blogDetailsPage.html" class="text-bgSecondary font-futuraBk">Read More</a>
+              </p>
+
+              <div class="blogAuthor flex items-center justify-start py-4">
+                <img class="size-12 aspect-square object-cover rounded-full ring-2 ring-bgSecondary drop-shadow-sm"
+                  src="../../assets/ProfilePic/profile_1.jpg" loading="lazy" alt="profile...">
+
+                <div class="profileText ml-4 mb-0">
+                  <h5 class="font-semibold tracking-tighter m-0">Sunil Shinde</h5>
+                  <p>23 Nov, 2024 &nbsp;&nbsp; <em>12:32 PM</em></p>
+                </div>
+              </div>
+
+              <div class="mt-6 flex justify-between items-center px-4">
+                <div class="flex font-futuraMd items-center justify-center w-auto">
+                  <p class="mr-6">Views 1.5k</p>
+                  <p>Comments 200+</p>
+                </div>
+                <button id="like" class="fa-regular fa-heart text-bgSecondary text-2xl"></button>
+              </div>
+
+              <div class="block w-full h-[1px] bg-universal opacity-30 my-4"></div>
+
+              <!-- input field  -->
+              <form
+                class="p-[6px] mt-4 mb-6 py-6 [&>div]:grid grid-cols-1 text-start [&>div]:py-2 [&_label]:text-lg [&_label]:py-2  [&_label]:text-headerBgcolor [&_label]:cursor-pointer [&_label]:font-bold"
+                action="backend.php">
+                <div class="[&_label]:w-fit">
+                  <label for="textarea">Comment:</label>
+                  <textarea
+                    class="border bg-transparent border-gray-200 py-3 px-4 [&_textarea]:text-base rounded-md outline-none caret-bgSecondary focus:outline-bgSecondary"
+                    name="textarea" id="textarea" placeholder="Leave a message" cols="30" rows="6" required></textarea>
+                </div>
+                <div>
+                  <button
+                    class="rounded-md px-6 py-3 font-medium bg-bgPrimary text-white hover:bg-bgSecondary duration-150 ease-in">
+                    Send Now
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <!-- aside -->
+          <div class="w-full xl:max-w-sm">
+            <h3 class="text-xl font-futuraBk text-headerBgcolor mb-3 rounded-full hover:bg-gray-200 w-fit px-6 py-1">
+              <a href="./blogDetailsPage.html">All-Blogs</a>
+            </h3>
+            <div class="gap-4 rounded-md [&_img]:rounded-lg xl:p-3 [&_img]:aspect-video">
+              <div
+                class="border max-w-max rounded-md [&_img]:object-cover [&_img]:rounded-lg xl:p-3  [&_img]:aspect-video">
+                <img src="../../assets/blog/blog-5.jpg" width="812" alt="blog image">
+
+                <div class="p-1 [&_h4]:text-lg [&_h4]:font-semibold [&_h4]:py-2">
+                  <h4>Latest Technology</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quia alias dolor nesciunt dicta
+                    fugiat ratione illo laborum.
+                    <a href="./blogDetailsPage.html" class="text-bgSecondary font-futuraMd">Read More</a>
+                  </p>
+                </div>
+              </div>
+              <div
+                class="border my-4 max-w-max rounded-md [&_img]:object-cover [&_img]:rounded-lg xl:p-3  [&_img]:aspect-video">
+                <img src="../../assets/blog/blog-7.jpg" width="812" alt="blog image">
+
+                <div class="p-1 [&_h4]:text-lg [&_h4]:font-semibold [&_h4]:py-2">
+                  <h4>Latest Technology</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quia alias dolor nesciunt dicta
+                    fugiat ratione illo laborum.
+                    <a href="./blogDetailsPage.html" class="text-bgSecondary font-futuraMd">Read More</a>
+                  </p>
+                </div>
+
+              </div>
+
+              <div
+                class="border max-w-max rounded-md [&_img]:object-cover [&_img]:rounded-lg xl:p-3  [&_img]:aspect-video">
+                <img src="../../assets/blog/blog-6.jpg" width="812" alt="blog image">
+
+                <div class="p-1 [&_h4]:text-lg [&_h4]:font-semibold [&_h4]:py-2">
+                  <h4>Latest Technology</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quia alias dolor nesciunt dicta
+                    fugiat ratione illo laborum.
+                    <a href="./blogDetailsPage.html" class="text-bgSecondary font-futuraMd">Read More</a>
+                  </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- ====================
+    Back to home button 
+    ========================= -->
+    <div class="hidden md:block">
+      <a class="p-2 bg-black font-futuraBk max-w-max fixed left-0 bottom-3 md:bottom-16 text-sm text-white font-light"
+        href="../../index.html">
+        <p class="[writing-mode:vertical-lr]">Back to Home</p>
+        <i class="fa-solid fa-house text-lightPurple mt-4"></i>
+      </a>
+    </div>
+
+
+
+
+
+    <!-- =======================
+    ***  Footer Section ***
+    ======================== -->
+    <footer class="bg-bgSecondary py-16">
+      <div class="w-full xl:max-w-7xl mx-auto grid grid-row-2 px-6 md:px-16">
+        <div class="grid sm:grid-cols-3 sm:py-10 py-8">
+          <div class="rightSide">
+            <div class="logo block md:flex">
+              <svg preserveAspectRatio="xMidYMid meet" data-bbox="0 0 142 85" viewBox="0 0 142 85" width="45"
+                xmlns="http://www.w3.org/2000/svg" data-type="color" role="img" aria-label="AttendNow">
+                <g>
+                  <path fill="#BB2323"
+                    d="M86 42.5C86 65.972 66.748 85 43 85S0 65.972 0 42.5 19.252 0 43 0s43 19.028 43 42.5z"
+                    data-color="1"></path>
+                  <path fill="#DC2626"
+                    d="M142 42.298c0 23.36-18.937 42.298-42.298 42.298-23.36 0-42.298-18.937-42.298-42.298C57.404 18.938 76.341 0 99.702 0 123.062 0 142 18.937 142 42.298z"
+                    data-color="2"></path>
+                  <path fill="#ffffff"
+                    d="M81.404 39.968 95.656 54.22a3.848 3.848 0 1 1-5.442 5.442L75.963 45.41a3.848 3.848 0 1 1 5.442-5.442z"
+                    data-color="3"></path>
+                  <path fill="#ffffff"
+                    d="M124.44 30.855 95.678 59.62a3.848 3.848 0 1 1-5.442-5.442L119 25.413a3.848 3.848 0 1 1 5.442 5.442z"
+                    data-color="3"></path>
+                </g>
+              </svg>
+              <div class="md:ml-3 mt-2 md:mt-0">
+                <h2 class="text-white font-semibold text-lg tracking-tight">AttendNow Tech Solutions Private
+                  Limited</h2>
+              </div>
+            </div>
+            <div class="py-6 font-futuraMd text-white md:ml-14">
+              <h4 class="mb-2">
+                <a href="#" class="hover:text-gray-100 duration-75 ease-linear" title="Call Now"><span
+                    class="font-futuraBk font-semibold">Tel: </span>
+                  +91 90283 23769</a>
+              </h4>
+              <h4>
+                <a href="#" class="hover:text-gray-100 duration-75 ease-linear" title="Email Now">
+                  <span class="font-futuraBk font-semibold">Email:
+                  </span> info@attendnow.in</a>
+              </h4>
+            </div>
+            <div class="text-paraTextxl text-white md:ml-14">
+              <a href="#" class="mr-2"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="leftSide place-items-start sm:place-items-end mt-4 sm:mt-0">
+            <ul class="font-futuraMd">
+              <li class="text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Home</a>
+              </li>
+              <li class="py-2 text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Why AttendNow</a>
+              </li>
+              <li class="text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Benefits</a>
+              </li>
+              <li class="py-2 text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Reviews</a>
+              </li>
+              <li class="py-2 text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Pricing</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="leftSide place-items-start sm:place-items-end mt-4 sm:mt-0">
+            <ul class="font-futuraMd">
+              <li class="text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="py-2 text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Terms & Conditions</a>
+              </li>
+              <li class="text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Refund Policy</a>
+              </li>
+              <li class="py-2 text-white hover:text-gray-100 duration-100 ease-linear hover:underline">
+                <a href="#">Shipping Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="place-items-center pt-4">
+          <p class="text-paraTextmd font-futuraMd font-normal text-center text-white">© 2024 by AttendNow Tech
+            Solutions Private
+            Limited.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+  <!-- swiffy slider  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
+    defer></script>
+  <script src="../../JS/script.js"></script>
+</body>
+
+</html>

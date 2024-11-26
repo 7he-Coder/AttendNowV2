@@ -448,3 +448,378 @@ testimonial start
           </div>
 
 testimonial end
+
+<!-- Card Review/Indicators -->
+
+              <!-- slide -2  -->
+              <div class="reviewBox block md:flex items-center justify-between">
+                <div class="hidden md:block text-right size-full md:size-[60%] xl:size-[70%]">
+                  <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+
+                  <p class="py-5 my-6 text-xl xl:text-3xl leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+
+                  <div class="[&_i]:text-bgSecondary">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+
+                <!-- client image -->
+                <div
+                  class="imgBox bg-white w-full md:size-[40%] xl:size-[30%] relative sm:border-s-2 sm:border-e-2 sm:border-t-[6px] sm:rounded-t-full py-4 border-red-600 cursor-pointer">
+                  <div class="image-box place-items-center">
+                    <img class="w-[50%] sm:w-auto drop-shadow-2xl" src="./assets/ProfilePic/profile_1.png"
+                      alt="profile feedback">
+                  </div>
+                  <div class="content text-center mt-3">
+                    <h4 class="font-semibold tracking-tighter text-2xl">Sunil Shinde</h4>
+                    <p>CEO & Founder of VIPTech pvt. ltd.</p>
+                  </div>
+                </div>
+
+                <!-- for mobile -->
+                <div class="block md:hidden size-full md:size-[60%] xl:size-[70%]">
+                  <div class="flex items-center justify-between">
+                    <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+
+                    <div class="[&_i]:text-bgSecondary">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+
+                  <p class="py-2 my-2 text-center text-xl xl:text-3xl leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+
+
+                </div>
+              </div>
+              <!-- slide -3  -->
+              <div class="reviewBox block md:flex items-center justify-between">
+                <div class="hidden md:block text-right size-full md:size-[60%] xl:size-[70%]">
+                  <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+
+                  <p class="py-5 my-6 text-xl xl:text-3xl leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+
+                  <div class="[&_i]:text-bgSecondary">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+
+                <!-- client image -->
+                <div
+                  class="imgBox bg-white w-full md:size-[40%] xl:size-[30%] relative sm:border-s-2 sm:border-e-2 sm:border-t-[6px] sm:rounded-t-full py-4 border-red-600 cursor-pointer">
+                  <div class="image-box place-items-center">
+                    <img class="w-[50%] sm:w-auto drop-shadow-2xl" src="./assets/ProfilePic/profile_1.png"
+                      alt="profile feedback">
+                  </div>
+                  <div class="content text-center mt-3">
+                    <h4 class="font-semibold tracking-tighter text-2xl">Sunil Shinde</h4>
+                    <p>CEO & Founder of VIPTech pvt. ltd.</p>
+                  </div>
+                </div>
+
+                <!-- for mobile -->
+                <div class="block md:hidden size-full md:size-[60%] xl:size-[70%]">
+                  <div class="flex items-center justify-between">
+                    <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+
+                    <div class="[&_i]:text-bgSecondary">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+
+                  <p class="py-2 my-2 text-center text-xl xl:text-3xl leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+
+
+                </div>
+              </div>
+              <!-- slide -4  -->
+              <div class="reviewBox block md:flex items-center justify-between">
+                <div class="hidden md:block text-right size-full md:size-[60%] xl:size-[70%]">
+                  <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+
+                  <p class="py-5 my-6 text-xl xl:text-3xl leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+
+                  <div class="[&_i]:text-bgSecondary">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+
+                <!-- client image -->
+                <div
+                  class="imgBox bg-white w-full md:size-[40%] xl:size-[30%] relative sm:border-s-2 sm:border-e-2 sm:border-t-[6px] sm:rounded-t-full py-4 border-red-600 cursor-pointer">
+                  <div class="image-box place-items-center">
+                    <img class="w-[50%] sm:w-auto drop-shadow-2xl" src="./assets/ProfilePic/profile_1.png"
+                      alt="profile feedback">
+                  </div>
+                  <div class="content text-center mt-3">
+                    <h4 class="font-semibold tracking-tighter text-2xl">Sunil Shinde</h4>
+                    <p>CEO & Founder of VIPTech pvt. ltd.</p>
+                  </div>
+                </div>
+
+                <!-- for mobile -->
+                <div class="block md:hidden size-full md:size-[60%] xl:size-[70%]">
+                  <div class="flex items-center justify-between">
+                    <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+
+                    <div class="[&_i]:text-bgSecondary">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+
+                  <p class="py-2 my-2 text-center text-xl xl:text-3xl leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+
+
+                </div>
+              </div>
+
+
+              <!-- start  -->
+               <!-- slider  -->
+        <div class="w-full max-w-full  relative overflow-hidden">
+          <!-- Left/Right Button -->
+          <div
+            class="px-2 mb-6 md:mb-2 place-self-end *:border *:mx-2 *:rounded-full *:size-12 *:ring-1 *:ring-bgSecondary *:text-bgSecondary">
+            <button type="button" class="prev group hover:bg-bgSecondary">
+              <i class="fa-solid fa-chevron-left group-hover:text-white"></i>
+            </button>
+            <button type="button" class="next sliderNavNext group hover:bg-bgSecondary">
+              <i class="fa-solid fa-chevron-right group-hover:text-white"></i>
+            </button>
+          </div>
+
+          <!-- slider card -->
+          <div class="swiffy-slider w-full overflow-hidden md:overflow-auto">
+            <div
+              class="slider-container no-scrollbar snap-center overflow-x-scroll *:relative top-0 *:gap-8 py-8 mx-8 flex place-items-center justify-items-center">
+
+              <!-- slide -1  -->
+              <div class="box-1 block md:flex items-center justify-between">
+                <div class="hidden md:block text-right size-full md:size-[60%] xl:size-[70%]">
+                  <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+
+                  <p class="py-5 my-6 text-xl xl:text-3xl leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+
+                  <div class="[&_i]:text-bgSecondary">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+
+                <!-- client image -->
+                <div
+                  class="imgBox bg-white w-full md:size-[40%] xl:size-[30%] relative sm:border-s-2 sm:border-e-2 sm:border-t-[6px] sm:rounded-t-full py-4 border-red-600 cursor-pointer">
+                  <div class="image-box place-items-center">
+                    <img class="w-[50%] sm:w-auto drop-shadow-2xl" src="./assets/ProfilePic/profile_1.png"
+                      alt="profile feedback">
+                  </div>
+                  <div class="content text-center mt-3">
+                    <h4 class="font-semibold tracking-tighter text-2xl">Sunil Shinde</h4>
+                    <p>CEO & Founder of VIPTech pvt. ltd.</p>
+                  </div>
+                </div>
+
+                <!-- for mobile -->
+                <div class="block md:hidden size-full md:size-[60%] xl:size-[70%]">
+                  <div class="flex items-center justify-between">
+                    <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+
+                    <div class="[&_i]:text-bgSecondary">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+
+                  <p class="py-2 my-2 text-center text-xl xl:text-3xl leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+
+
+                </div>
+              </div>
+
+              <!-- slide -2  -->
+              <div class="box-1 block md:flex items-center justify-between">
+                <div class="hidden md:block text-right size-full md:size-[60%] xl:size-[70%]">
+                  <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+
+                  <p class="py-5 my-6 text-xl xl:text-3xl leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+
+                  <div class="[&_i]:text-bgSecondary">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+
+                <!-- client image -->
+                <div
+                  class="imgBox bg-white w-full md:size-[40%] xl:size-[30%] relative sm:border-s-2 sm:border-e-2 sm:border-t-[6px] sm:rounded-t-full py-4 border-red-600 cursor-pointer">
+                  <div class="image-box place-items-center">
+                    <img class="w-[50%] sm:w-auto drop-shadow-2xl" src="./assets/ProfilePic/profile_1.png"
+                      alt="profile feedback">
+                  </div>
+                  <div class="content text-center mt-3">
+                    <h4 class="font-semibold tracking-tighter text-2xl">Sunil Shinde</h4>
+                    <p>CEO & Founder of VIPTech pvt. ltd.</p>
+                  </div>
+                </div>
+
+                <!-- for mobile -->
+                <div class="block md:hidden size-full md:size-[60%] xl:size-[70%]">
+                  <div class="flex items-center justify-between">
+                    <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+
+                    <div class="[&_i]:text-bgSecondary">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+
+                  <p class="py-2 my-2 text-center text-xl xl:text-3xl leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+
+
+                </div>
+              </div>
+
+              <!-- slide -3  -->
+              <div class="box-1 block md:flex items-center justify-between">
+                <div class="hidden md:block text-right size-full md:size-[60%] xl:size-[70%]">
+                  <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+
+                  <p class="py-5 my-6 text-xl xl:text-3xl leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+
+                  <div class="[&_i]:text-bgSecondary">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+
+                <!-- client image -->
+                <div
+                  class="imgBox bg-white w-full md:size-[40%] xl:size-[30%] relative sm:border-s-2 sm:border-e-2 sm:border-t-[6px] sm:rounded-t-full py-4 border-red-600 cursor-pointer">
+                  <div class="image-box place-items-center">
+                    <img class="w-[50%] sm:w-auto drop-shadow-2xl" src="./assets/ProfilePic/profile_1.png"
+                      alt="profile feedback">
+                  </div>
+                  <div class="content text-center mt-3">
+                    <h4 class="font-semibold tracking-tighter text-2xl">Sunil Shinde</h4>
+                    <p>CEO & Founder of VIPTech pvt. ltd.</p>
+                  </div>
+                </div>
+
+                <!-- for mobile -->
+                <div class="block md:hidden size-full md:size-[60%] xl:size-[70%]">
+                  <div class="flex items-center justify-between">
+                    <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+
+                    <div class="[&_i]:text-bgSecondary">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+
+                  <p class="py-2 my-2 text-center text-xl xl:text-3xl leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Button Indicator -->
+          <div id="slider-Indicators"
+            class="py-6 md:py-2 flex items-center justify-center *:mx-1 *:size-4 *:rounded-full *:ring *:ring-bgSecondary [&_button:hover]:bg-slate-200">
+            <button type="button" class="active bg-bgSecondary"></button>
+            <button type="button"></button>
+            <button type="button"></button>
+          </div>
+        </div>
+              <!-- end -->

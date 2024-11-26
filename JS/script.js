@@ -21,71 +21,45 @@ document.querySelectorAll(`.navLink`).forEach((e => e.addEventListener(`click`, 
 
 
 
-document.addEventListener('DOMContentLoaded', () => {
-  const sliderContainer = document.getElementById('sliderContainer');
-  const slides = document.querySelectorAll('.boxes');
-  const prevButton = document.querySelector('.prev');
-  const nextButton = document.querySelector('.next');
-  const indicators = document.querySelectorAll('#slider-Indicators button');
+// review slider start 
+const prevBtn = document.querySelector('.prev');
+const nextBtn = document.querySelector('.next');
+const sliderContainer = document.querySelector('#sliderContainer');
+const slides = document.querySelectorAll('.reviewBox');
+let currentIndex = 0;
 
-  // // Debugging: Check if elements are selected properly
-  // console.log('prevButton:', prevButton);
-  // console.log('nextButton:', nextButton);
-  // console.log('indicators:', indicators);
-
-  // Check if any of the essential elements are missing
-  if (!prevButton || !nextButton || indicators.length === 0) {
-    console.error('Some elements are missing');
-    return; // Exit if essential elements are missing
+// Function to move to the next slide
+function goToNextSlide() {
+  if (currentIndex < slides.length - 1) {
+    currentIndex++;
+  } else {
+    currentIndex = 0; // loop back to the first slide
   }
+  updateSliderPosition();
+}
 
-  let currentIndex = 0;
+// Function to move to the previous slide
+function goToPrevSlide() {
+  if (currentIndex > 0) {
+    currentIndex--;
+  } else {
+    currentIndex = slides.length - 1; // loop back to the last slide
+  }
+  updateSliderPosition();
+}
 
-  // Function to update the slider position
-  const updateSlider = () => {
-    const offset = slides[currentIndex].offsetLeft;
-    sliderContainer.scrollTo({ left: offset, behavior: 'smooth' });
+// Update the slider container's position to show the correct slide
+function updateSliderPosition() {
+  sliderContainer.style.transform = `translateX(-${currentIndex * 100}%)`;
+}
 
-    // Update active indicator
-    indicators.forEach((indicator, index) => {
-      if (index === currentIndex) {
-        indicator.classList.add('bg-bgSecondary');
-      } else {
-        indicator.classList.remove('bg-bgSecondary');
-      }
-    });
-  };
+// Event listeners for buttons
+nextBtn.addEventListener('click', goToNextSlide);
+prevBtn.addEventListener('click', goToPrevSlide);
 
-  // Previous button click handler
-  prevButton.addEventListener('click', () => {
-    currentIndex = (currentIndex === 0) ? slides.length - 1 : currentIndex - 1;
-    updateSlider();
-  });
-
-  // Next button click handler
-  nextButton.addEventListener('click', () => {
-    currentIndex = (currentIndex === slides.length - 1) ? 0 : currentIndex + 1;
-    updateSlider();
-  });
-
-  // Indicator click handler
-  indicators.forEach((indicator, index) => {
-    indicator.addEventListener('click', () => {
-      currentIndex = index;
-      updateSlider();
-    });
-  });
-
-  // Initialize the first indicator
-  updateSlider();
-
-  // Auto slide every 2 seconds (optional)
-  setInterval(() => {
-    nextButton.click();
-  }, 2000);
-});
-
-
+// Auto-slide every 5 seconds
+setInterval(goToNextSlide, 5000);
+// review slider end
 
 
 // heart like button

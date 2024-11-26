@@ -378,3 +378,81 @@
 	transform-origin: -16vw 7vh;
 	box-shadow: 36vmin 0 5.267270241483068vmin currentColor;
 }
+
+/* testmonial slider start */
+#slider {
+	position: relative;
+	overflow: hidden;
+	margin: 20px auto 0 auto;
+	border-radius: 4px;
+}
+
+#slider ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 200px;
+	list-style: none;
+}
+
+#slider ul li {
+	position: relative;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 500px;
+	height: 300px;
+	background: #ccc;
+	text-align: center;
+	line-height: 300px;
+}
+
+a. .slider-container {
+	display: flex;
+	transition: transform 0.5s ease;
+}
+
+.slider-container .reviewBox {
+	flex: 0 0 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+/* Center slider images and content on smaller devices */
+@media (max-width: 768px) {
+	.imgBox img {
+		width: 60%;
+		margin: 0 auto;
+	}
+}
+
+/* Add responsiveness for mobile */
+.slider-nav {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	z-index: 10;
+}
+
+.slider-nav button {
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+	padding: 10px;
+	color: white;
+	cursor: pointer;
+}
+
+.slider-nav button:hover {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.slider-nav .prev {
+	left: 10px;
+}
+
+.slider-nav .next {
+	right: 10px;
+}
+/* testmonial slider end */

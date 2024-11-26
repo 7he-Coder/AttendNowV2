@@ -12,8 +12,7 @@
   <link rel="stylesheet" href="./CSS/global.css">
 
   <!-- swiffy slider  -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css"
-    rel="stylesheet" crossorigin="anonymous">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous"> -->
 
   <!-- fontfamily -->
   <link href="https://db.onlinewebfonts.com/c/7fdb09ff5a96f39768f311d5471d68a9?family=FuturaLig" rel="stylesheet">
@@ -545,10 +544,10 @@
         </div>
 
         <!-- slider  -->
-        <div id="slider" class="w-full max-w-full  relative overflow-hidden">
+        <div class="w-full max-w-full  relative overflow-hidden">
           <!-- Left/Right Button -->
           <div
-            class="px-2 mb-2 place-self-end *:border *:mx-2 *:rounded-full *:size-12 *:ring-1 *:ring-bgSecondary *:text-bgSecondary">
+            class="px-2 mb-6 md:mb-2 place-self-end *:border *:mx-2 *:rounded-full *:size-12 *:ring-1 *:ring-bgSecondary *:text-bgSecondary">
             <button type="button" class="prev group hover:bg-bgSecondary">
               <i class="fa-solid fa-chevron-left group-hover:text-white"></i>
             </button>
@@ -557,10 +556,10 @@
             </button>
           </div>
 
-          <!-- Card Review/Indicators -->
-          <div id="sliderContainer" class="w-full overflow-hidden md:overflow-auto">
+          <!-- slider card -->
+          <div class="swiffy-slider w-full overflow-hidden md:overflow-auto">
             <div
-              class=" no-scrollbar snap-center overflow-x-scroll *:relative top-0 *:gap-8 py-8 mx-8 flex place-items-center justify-items-center">
+              class="slider-container no-scrollbar snap-center overflow-x-scroll *:relative top-0 *:gap-8 py-8 mx-8 flex place-items-center justify-items-center">
 
               <!-- slide -1  -->
               <div class="box-1 block md:flex items-center justify-between">
@@ -614,17 +613,14 @@
                     Go
                     for it.
                   </p>
-
-
                 </div>
               </div>
             </div>
           </div>
 
-
           <!-- Button Indicator -->
           <div id="slider-Indicators"
-            class="py-6 flex items-center justify-center *:mx-1 *:size-4 *:rounded-full *:ring *:ring-bgSecondary [&_button:hover]:bg-slate-200">
+            class="py-6 md:py-2 flex items-center justify-center *:mx-1 *:size-4 *:rounded-full *:ring *:ring-bgSecondary [&_button:hover]:bg-slate-200">
             <button type="button" class="active bg-bgSecondary"></button>
             <button type="button"></button>
             <button type="button"></button>
@@ -661,67 +657,67 @@
 
             <div class="py-8 *:list-none *:flex *:items-center *:justify-start">
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
                   Attendance with Geo Tagging
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
                   Geofence
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
                   Payroll Calculation
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
                   Dynamic Work Calendar
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
                   Selfie Attendance
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
                   Multiple Punch in and Punch out
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
                   Work Offline
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
                   Roster Attendance
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
                   Overtime
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
                   Standard Salary Report
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-2 leading-loose text-neutral-700">
                   Holidays management
                 </span>
@@ -855,97 +851,97 @@
 
             <div class="py-8 *:list-none *:flex *:items-center *:justify-start">
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
                   Attendance with Geo Tagging
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr- size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
                   Geofence
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
                   Payroll Calculation
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
                   Dynamic Work Calendar
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
                   Selfie Attendance
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
                   Multiple Punch in and Punch out
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
                   Work Offline
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
                   Roster Attendance
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
                   Overtime
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
                   Standard Salary Report
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
                   Holidays management
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
                   Location Tracking
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-1 leading-[1.7rem] text-neutral-700">
                   Distance Travelled Summary
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
                   Timesheet
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
                   Custom Forms
                 </span>
               </li>
               <li>
-                <img class="object-contain aspect-square mr-2" src="./assets/checkmark.png" alt="checkmark">
+                <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck2.png" alt="checkmark">
                 <span class="text-base tracking-tight py-[5px] leading-[1.7rem] text-neutral-700">
                   Dedicated Support
                 </span>
@@ -1073,8 +1069,8 @@
 
 
   <!-- swiffy slider  -->
-  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
-    defer></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script> -->
+
   <!-- script  -->
   <script src="./JS//script.js"></script>
 

@@ -62,7 +62,7 @@
 		center/cover;
 	left: 0;
 	top: 0;
-	filter: blur(4px);
+	filter: blur(1.5px) grayscale(0.3);
 	z-index: -1;
 }
 
@@ -408,7 +408,7 @@
 	line-height: 300px;
 }
 
-a. .slider-container {
+a.slider-container {
 	display: flex;
 	transition: transform 0.5s ease;
 }

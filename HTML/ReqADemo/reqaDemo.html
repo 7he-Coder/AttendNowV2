@@ -339,7 +339,7 @@
         </div>
 
         <div
-          class="bg-gray-50 max-w-max md:max-w-xl xl:max-w-2xl mx-auto w-full drop-shadow-xl md:hover:scale-105 md:duration-200 md:ease-in rounded-lg lg:px-4 place-items-center">
+          class="bg-gray-50 max-w-max md:max-w-xl xl:max-w-2xl mx-auto w-full drop-shadow-xl rounded-lg lg:px-4 place-items-center">
           <div class="font-futuraMd text-center pt-10">
             <h2 class="w-full text-3xl md:text-4xl text-bgPrimary">
               Employee Attendance & Location Tracking Simplified
@@ -351,7 +351,7 @@
           </div>
 
           <form
-            class="rounded-md mt-2 mb-6 py-6 px-4 [&_div]:grid [&_div]:w-full w-full grid-cols-1 text-start [&_div]:py-2 [&_label]:text-lg [&_label]:py-2 [&_label]:text-headerBgcolor [&_label]:w-fit [&_label]:cursor-pointer [&_label]:font-light [&_input]:border [&_input]:py-3 [&_input]:px-4 [&_input]:text-base [&_input]:rounded-md [&_input]:outline-none place-items-center"
+            class="rounded-md mt-2 mb-6 py-6 px-4 [&_div]:grid [&_div]:w-full w-full grid-cols-1 text-start [&_div]:py-2 [&_label]:text-lg [&_label]:py-2 [&_label]:text-headerBgcolor [&_label]:w-fit [&_label]:cursor-pointer [&_label]:font-light [&_input]:border [&_input]:py-3 [&_input]:px-4 [&_input]:text-base [&_input]:rounded-md place-items-center [&_input:]:outline-none [&_input:focus]:outline [&_input:focus]:outline-bgSecondary"
             action="backend.php">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
               <div>
@@ -383,7 +383,9 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
               <div>
                 <label for="employee">Employee Size:</label>
-                <select class="border py-3 px-4 text-base rounded-md outline-none" name="Desgination" id="employee">
+                <select
+                  class="border py-3 px-4 text-base rounded-md outline-none focus:outline-1 focus:outline-bgSecondary"
+                  name="Desgination" id="employee">
                   <option value="own">Employee Size</option>
                   <option value="own">0-10</option>
                   <option value="own">10-25</option>
@@ -395,7 +397,9 @@
               </div>
               <div>
                 <label for="desgi">Desgination:</label>
-                <select class="border py-3 px-4 text-base rounded-md outline-none" name="Desgination" id="desgi">
+                <select
+                  class="border py-3 px-4 text-base rounded-md outline-none focus:outline-1 focus:outline-bgSecondary"
+                  name="Desgination" id="desgi">
                   <option value="own">Desgination</option>
                   <option value="own">Owner</option>
                   <option value="own">Manager</option>

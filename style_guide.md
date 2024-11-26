@@ -280,3 +280,171 @@ https://www.vecteezy.com/free-vector/technology
               </button>
             </div>
           </form> -->
+
+https://coolors.co/gradient-palette/dc2626-161616?number=9
+https://bgjar.com/animated-shape
+https://www.shapedivider.app/
+https://getbootstrap.com/docs/4.0/utilities/colors/
+https://bg.ibelick.com/
+https://www.toptal.com/designers/subtlepatterns/
+https://www.awwwards.com/websites/big-background-images/
+https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/
+https://www.vecteezy.com/free-vector/technology
+https://coolbackgrounds.io/
+
+testimonial start
+
+<!-- Card Review/Indicators -->
+
+          <div id="sliderContainer" class="w-full overflow-hidden">
+            <div
+              class="w-screen h-max no-scrollbar snap-center overflow-x-scroll *:relative top-0 *:gap-8 py-8 mx-8 flex place-items-center justify-items-center">
+              <!-- slide -1  -->
+              <div
+                class="box-1 boxes w-full max-w-[346px] h-max mx-auto xl:mt-0 mt-8 px-6 py-5 border-[1px] border-bgSecondary rounded-[2.5rem]">
+                <div class="size-fit py-5">
+                  <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+                  <p class="text-lg text-center leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+                </div>
+                <div class="place-content-center [&>div]:place-items-center py-4">
+                  <div class="profileImg">
+                    <img class="size-14 aspect-square object-cover rounded-full ring-2 ring-bgSecondary drop-shadow-sm"
+                      src="./assets/ProfilePic/profile_1.jpg" loading="lazy" alt="profile...">
+                  </div>
+                  <div class="profileText py-3">
+                    <h4 class="font-semibold tracking-tighter">Sunil Shinde</h4>
+                  </div>
+                  <div class="text-center [&_i]:text-bgSecondary">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+
+              <!-- slide -2 -->
+              <div
+                class="box-2 boxes w-full max-w-[346px] h-max mx-auto xl:mt-0 mt-8 px-6 py-5  border-[1px] border-bgSecondary rounded-[2.5rem]">
+                <div class="size-fit py-5">
+                  <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+                  <p class="text-lg text-center leading-loose font-futuraMd text-gray-500">
+                    app is easy to access and also cost effect. The backend support is great. Go
+                    for
+                    it.
+                  </p>
+                </div>
+                <div class="place-content-center [&>div]:place-items-center py-4">
+                  <div class="profileImg">
+                    <img class="size-14 aspect-square object-cover rounded-full ring-2 ring-bgSecondary drop-shadow-sm"
+                      src="./assets/ProfilePic/profile_2.jpg" loading="lazy" alt="profile...">
+                  </div>
+                  <div class="profileText py-3">
+                    <h4 class="font-semibold tracking-tighter">Sunil Shinde</h4>
+                  </div>
+                  <div class="text-center [&_i]:text-bgSecondary">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+
+              <!-- slide -3  -->
+              <div
+                class="box-3 boxes  w-full max-w-[346px] h-max mx-auto xl:mt-0 mt-8 px-6 py-5  border-[1px] border-bgSecondary rounded-[2.5rem]">
+                <div class="size-fit py-5">
+                  <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+                  <p class="text-lg text-center leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+                </div>
+                <div class="place-content-center [&>div]:place-items-center py-4">
+                  <div class="profileImg">
+                    <img class="size-14 aspect-square object-cover rounded-full ring-2 ring-bgSecondary drop-shadow-sm"
+                      src="./assets/ProfilePic/profile_3.jpg" loading="lazy" alt="profile...">
+                  </div>
+                  <div class="profileText py-3">
+                    <h4 class="font-semibold tracking-tighter">Sunil Shinde</h4>
+                  </div>
+                  <div class="text-center [&_i]:text-bgSecondary">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+
+              <!-- slide -4  -->
+              <div
+                class="box-4 boxes  w-full max-w-[346px] h-max mx-auto xl:mt-0 mt-8 px-6 py-5  border-[1px] border-bgSecondary rounded-[2.5rem]">
+
+                <div class="size-fit py-5">
+                  <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+                  <p class="text-lg text-center leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+                </div>
+                <div class="place-content-center [&>div]:place-items-center py-4">
+                  <div class="profileImg">
+                    <img class="size-14 aspect-square object-cover rounded-full ring-2 ring-bgSecondary drop-shadow-sm"
+                      src="./assets/ProfilePic/profile_2.jpg" loading="lazy" alt="profile...">
+                  </div>
+                  <div class="profileText py-3">
+                    <h4 class="font-semibold tracking-tighter">Sunil Shinde</h4>
+                  </div>
+                  <div class="text-center [&_i]:text-bgSecondary">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+
+              <!-- slide -5  -->
+              <div
+                class="box-5 boxes w-full max-w-[346px] h-max mx-auto xl:mt-0 mt-8 px-6 py-5  border-[1px] border-bgSecondary rounded-[2.5rem]">
+                <div class="size-fit py-5">
+                  <i class="fa-solid fa-quote-left text-bgSecondary text-5xl"></i>
+                  <p class="text-lg text-center leading-loose font-futuraMd text-gray-500">
+                    The app is easy to access and also cost effect. The backend support is great.
+                    Go
+                    for it.
+                  </p>
+                </div>
+                <div class="place-content-center [&>div]:place-items-center py-4">
+                  <div class="profileImg">
+                    <img class="size-14 aspect-square object-cover rounded-full ring-2 ring-bgSecondary drop-shadow-sm"
+                      src="./assets/ProfilePic/profile_1.jpg" loading="lazy" alt="profile...">
+                  </div>
+                  <div class="profileText py-3">
+                    <h4 class="font-semibold tracking-tighter">Sunil Shinde</h4>
+                  </div>
+                  <div class="text-center [&_i]:text-bgSecondary">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+testimonial end

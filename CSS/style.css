@@ -1139,6 +1139,10 @@ video {
   height: 100vh;
 }
 
+.h-\[75px\] {
+  height: 75px;
+}
+
 .w-0 {
   width: 0px;
 }
@@ -3016,6 +3020,10 @@ video {
     height: auto;
   }
 
+  .md\:h-\[97px\] {
+    height: 97px;
+  }
+
   .md\:w-\[600px\] {
     width: 600px;
   }
@@ -3260,6 +3268,11 @@ video {
   .xl\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
 

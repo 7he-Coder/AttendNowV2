@@ -2826,6 +2826,10 @@ video {
   line-height: 2.25rem;
 }
 
+.\*\:font-medium > * {
+  font-weight: 500;
+}
+
 .\*\:text-bgSecondary > * {
   --tw-text-opacity: 1;
   color: rgb(220 38 38 / var(--tw-text-opacity, 1));
@@ -2834,6 +2838,11 @@ video {
 .\*\:text-white > * {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.\*\:text-universal > * {
+  --tw-text-opacity: 1;
+  color: rgb(187 35 35 / var(--tw-text-opacity, 1));
 }
 
 .\*\:shadow-lg > * {
@@ -3494,6 +3503,10 @@ video {
   mix-blend-mode: multiply;
 }
 
+.\[\&_a\:hover\]\:font-medium a:hover {
+  font-weight: 500;
+}
+
 .\[\&_a\:hover\]\:text-bgSecondary a:hover {
   --tw-text-opacity: 1;
   color: rgb(220 38 38 / var(--tw-text-opacity, 1));
@@ -3507,6 +3520,24 @@ video {
 .\[\&_a\:hover\]\:text-universal a:hover {
   --tw-text-opacity: 1;
   color: rgb(187 35 35 / var(--tw-text-opacity, 1));
+}
+
+.\[\&_a\:hover\]\:text-white a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.\[\&_a\:hover\]\:text-bgPrimary a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(22 22 22 / var(--tw-text-opacity, 1));
+}
+
+.\[\&_a\:hover\]\:duration-150 a:hover {
+  transition-duration: 150ms;
+}
+
+.\[\&_a\:hover\]\:ease-in a:hover {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
 .\[\&_a\]\:py-2 a {

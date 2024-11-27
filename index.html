@@ -33,8 +33,7 @@
     <!-- =======================
     *** Header/Navbar Section ***
     ======================== -->
-    <header id="home"
-      class="w-full h-[97px] sticky top-0 left-0 z-[9999999] drop-shadow-lg backdrop-blur-lg bg-bgHeader">
+    <header id="home" class="w-full h-[97px] sticky top-0 left-0 z-[9999999] drop-shadow-lg backdrop-blur-lg bg-white">
       <div
         class="w-full xl:max-w-7xl 2xl:max-w-full mx-auto py-2 px-4 md:px-8 2xl:px-10 flex justify-between items-center">
         <!-- header logo -->
@@ -61,7 +60,7 @@
               </svg>
             </div>
             <div class="text-paraTextxl ml-3">
-              <h2 class="text-white font-futuraBk text-xl md:text-2xl tracking-wide"><a
+              <h2 class="text-bgHeader font-futuraBk text-xl md:text-2xl tracking-wide"><a
                   href="./index.html">AttendNow</a></h2>
             </div>
           </a>
@@ -72,8 +71,8 @@
           <div class="hidden lg:block">
             <div class="flex items-center justify-between">
               <ul
-                class="navigation mr-16 flex font-futuraBk *:2xl:text-xl tracking-tighter text-white [&_a:hover]:text-gray-300 lg:mr-4 min-[1285px]:mr-16 *:min-[1024px]:text-base *:min-[1040px]:text-paraTextmd *:min-[1070px]:text-lg gap-4 xl:gap-8">
-                <li><a href="#">Home</a></li>
+                class="navigation mr-16 flex font-futuraBk *:2xl:text-xl tracking-tighter text-textSecondary [&_a:hover]:text-bgHeader lg:mr-4 min-[1285px]:mr-16 *:min-[1024px]:text-base *:min-[1040px]:text-paraTextmd *:min-[1070px]:text-lg gap-4 xl:gap-8">
+                <li><a href="#" class="text-bgSecondary">Home</a></li>
                 <li><a href="#attendNow">Why AttendNow</a></li>
                 <li><a href="#benefit">Benefits</a></li>
                 <li><a href="#review">Reviews</a></li>
@@ -84,9 +83,9 @@
                 <li><a href="./HTML/LogIn/login.html">Login</a></li>
               </ul>
               <form
-                class="group w-[152px] h-11 max-w-sm bg-countryBtn outline-none focus:ring-1 focus:ring-bgSecondary font-futuraBk rounded-full inline-flex cursor-pointer">
+                class="group w-[152px] h-11 max-w-sm bg-bgSecondary outline-none focus:ring-1 focus:ring-bgSecondary font-futuraBk rounded-full inline-flex cursor-pointer">
                 <select id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider"
-                  class="bg-countryBtn text-white text-base px-1 ml-5 py-2 outline-none border-none cursor-pointer *:border-b *:border-b-bgHeader">
+                  class="bg-bgSecondary text-white text-base px-1 ml-5 py-2 outline-none border-none cursor-pointer *:border-b *:border-b-bgHeader">
 
                   <option value="English" selected>English</option>
                   <!-- <option value="lang" class="opacity-50">Choose a Language</option> -->
@@ -123,10 +122,10 @@
         <!-- mobile menus -->
         <div id="navbarSlide"
           class="w-full h-screen absolute top-24 -left-0 active:left-0 bg-[#ffffffa9] backdrop-blur-xl overflow-hidden hidden">
-          <div class="max-w-max h-full bg-bgHeader absolute z-50 border-t border-t-white border-opacity-50">
+          <div class="max-w-max h-full bg-white absolute z-50 border-t border-t-bgSecondary border-opacity-50">
             <div class="size-full grid px-6 gap-y-8">
               <ul
-                class="navigation w-full h-auto mt-8 grid gap-y-2 items-start font-futuraMd *:px-4 *:py-2 *:text-white [&_li:hover]:rounded-sm [&_li]:w-auto [&_a]:pr-9 [&_a]:pl-2 [&_a]:py-2 [&_a:hover]:text-bgPrimary [&_a:hover]:duration-150 [&_a:hover]:ease-in *:cursor-pointer">
+                class="navigation w-full h-auto mt-8 grid gap-y-2 items-center font-futuraMd *:px-4 *:py-0 *:text-bgPrimary [&_li]:w-auto [&_a]:pr-9 [&_a]:pl-2 [&_a]:py-0 [&_a:hover]:text-bgSecondary [&_a:hover]:duration-150 [&_a:hover]:ease-in *:cursor-pointer">
                 <li><a class="navLink" href="#">Home</a></li>
                 <li><a class="navLink" href="#attendNow">Why AttendNow</a></li>
                 <li><a class="navLink" href="#benefit">Benefits</a></li>
@@ -139,9 +138,9 @@
 
               <div>
                 <form
-                  class="group w-[152px] h-11 max-w-sm bg-countryBtn outline-none focus:ring-1 focus:ring-bgSecondary font-futuraBk rounded-full inline-flex cursor-pointer">
+                  class="group w-[152px] h-11 max-w-sm bg-bgSecondary outline-none focus:ring-1 focus:ring-bgSecondary font-futuraBk rounded-full inline-flex cursor-pointer">
                   <select id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider"
-                    class="bg-countryBtn text-white text-base px-1 ml-5 py-2 outline-none border-none cursor-pointer *:border-b *:border-b-bgHeader">
+                    class="bg-bgSecondary text-white text-base px-1 ml-5 py-2 outline-none border-none cursor-pointer *:border-b *:border-b-bgHeader">
 
                     <option value="English" selected>English</option>
                     <!-- <option value="lang" class="opacity-50">Choose a Language</option> -->
@@ -171,7 +170,16 @@
                 </span> -->
 
                 </form>
+
+                <div class="infoText text-bgSecondary mt-16">
+                  <h6 class="pb-4 text-lg text-textSecondary font-futuraBk font-medium">Call or Email Us</h6>
+                  <a class="text-2xl font-futuraMd font-semibold" href="tel:+919028323769">+91 9028323769</a>
+                  <a class="pt-2 block text-xl font-futuraMd font-semibold"
+                    href="mailto:info@attendnow.in">info@attendnow.in</a>
+                </div>
               </div>
+
+
             </div>
           </div>
         </div>
@@ -179,9 +187,9 @@
         <!-- *** hamburger *** -->
         <button id="hamburger"
           class="group lg:hidden bg-transparent grid gap-1.5 place-items-end transition duration-300 ease-in *:transition *:duration-500 *:ease-in-out">
-          <span class="line line1 "></span>
-          <span class="line line2 "></span>
-          <span class="line line3 "></span>
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
         </button>
 
       </div>
@@ -373,10 +381,10 @@
         <div class="block md:place-items-end xl:place-items-start">
           <h1
             class="size-full sm:w-[450px] md:w-[600px] md:h-auto font-futuraBk place-items-center text-center xl:text-left text-3xl md:text-5xl md:leading-tight lg:leading-snug my-8 md:my-0 py-8">
-            Reinventing <strong class="text-universal font-futuraMd font-bold">Employee Attendance</strong> with
+            Reinventing <strong class="text-bgSecondary font-futuraMd font-bold">Employee Attendance</strong> with
             Location Tracking
-            <hr class="w-[16%] inline-block justify-items-center bg-bgHeader p-[1px] mb-2 ">
-            <hr class="size-4 inline-block rounded-full bg-bgHeader mb-1 animate-bounce">
+            <hr class="w-[16%] inline-block justify-items-center bg-bgSecondary p-[1px] mb-2 ">
+            <hr class="size-4 inline-block rounded-full bg-bgSecondary mb-1 animate-bounce">
           </h1>
 
           <p class="text-lg font-futuraBk text-textSecondary font-light tracking-wider text-center sm:text-start md:text-justify leading-loose 
@@ -422,18 +430,18 @@
       <div class="w-full xl:max-w-7xl mx-auto py-[100px] px-6 md:px-16 xl:px-0">
         <div class="mb-28 text-center max-w-md md:max-w-xl mx-auto">
           <h2 class="text-bgPrimary font-futuraBk text-3xl md:text-5xl md:leading-tight lg:leading-snugt">
-            How AttendNow can help your business</h2>
+            How <strong class="text-bgSecondary font-futuraMd font-bold">AttendNow</strong> can help your business</h2>
           <p class="my-6 text-lg text-center leading-tight font-futuraBk text-textSecondary">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed non tenetur nihil quibusdam temporas.
           </p>
 
-          <hr class="w-[25%] inline-block justify-items-center bg-bgHeader p-[1px] mb-2 ">
+          <hr class="w-[25%] inline-block justify-items-center bg-bgSecondary p-[1px] mb-2 ">
 
         </div>
 
         <!-- boxes -->
         <div
-          class="grid place-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-8 [&_div]:w-[285px] [&_div]:h-[292.5px] [&_div]:bg-universal [&_div]:rounded-2xl">
+          class="grid place-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-8 [&_div]:w-[285px] [&_div]:h-[292.5px] [&_div]:bg-bgSecondary [&_div]:rounded-2xl">
           <div class="servBox box-1">
             <h1 class="text-justify text-2xl font-futuraBk tracking-tight max-w-[189.2px] px-4 py-6 text-white">
               Attendance
@@ -546,7 +554,7 @@
     <!-- =======================
     ***  Reviews Section ***
     ======================== -->
-    <section id="review" class="relavtive py-24 border-b">
+    <section id="review" class="relavtive py-24 ">
       <div class="w-full grid grid-cols-1 xl:max-w-7xl mx-auto py-16 px-6 md:px-16">
         <div class="w-full md:max-w-xl">
           <h2 class="text-4xl md:text-5xl leading-snug font-futuraBk">Satisfied Customers</h2>
@@ -561,7 +569,7 @@
         <div class="w-full max-w-full  relative overflow-hidden">
           <!-- Left/Right Button -->
           <div
-            class="px-2 mb-6 md:mb-2 place-self-end *:border *:mx-2 *:rounded-full *:size-12 *:ring-1 *:ring-bgSecondary *:text-bgSecondary">
+            class="px-2 py-2 mb-6 md:mb-0 place-self-end *:border *:mx-2 *:rounded-full *:size-12 *:ring-1 *:ring-bgSecondary *:text-bgSecondary">
             <button type="button" class="prev group hover:bg-bgSecondary">
               <i class="fa-solid fa-chevron-left group-hover:text-white"></i>
             </button>
@@ -597,7 +605,7 @@
 
                 <!-- client image -->
                 <div
-                  class="imgBox bg-white w-full md:size-[40%] xl:size-[30%] relative sm:border-s-2 sm:border-e-2 sm:border-t-[6px] sm:rounded-t-full py-4 border-red-600 cursor-pointer">
+                  class="imgBox bg-white w-full md:size-[40%] xl:size-[30%] relative sm:border-s-2 sm:border-e-2 sm:border-t-[6px] sm:rounded-t-full py-4 border-bgSecondary cursor-pointer">
                   <div class="image-box place-items-center">
                     <img class="w-[50%] sm:w-auto drop-shadow-2xl" src="./assets/ProfilePic/profile_1.png"
                       alt="profile feedback">
@@ -643,8 +651,20 @@
       </div>
     </section>
 
-
-
+    <!-- shape 1 -->
+    <div class="custom-shape-divider-top-1732633376">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+          opacity=".25" class="shape-fill"></path>
+        <path
+          d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+          opacity=".5" class="shape-fill"></path>
+        <path
+          d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+          class="shape-fill"></path>
+      </svg>
+    </div>
 
 
     <!-- =======================
@@ -657,14 +677,15 @@
           <p class="mt-8 mb-4 text-sm md:text-2xl leading-tight font-futuraBk text-textSecondary">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed non tenetur nihil quibusdam temporas.
           </p>
-          <hr class="w-[16%] inline-flex justify-items-center bg-bgHeader p-[1px] mb-2 ">
-          <hr class="size-4 inline-flex rounded-full bg-bgHeader mb-1 animate-bounce">
+          <hr class="w-[16%] inline-flex justify-items-center bg-bgSecondary p-[1px] mb-2 ">
+          <hr class="size-4 inline-flex rounded-full bg-bgSecondary mb-1 animate-bounce">
         </div>
         <div
           class=" w-full max-w-full mx-auto block mt-8 md:mt-0 md:grid grid-cols-1 md:grid-cols-2 lg:flex gap-x-6 place-items-center last:row-span-2 *:shadow-lg">
+
           <!-- car1 -->
           <div
-            class="box-1 bg-white w-full max-w-[375px] h-max mx-auto px-4 py-10 border-[1px] border-gray-200 font-futuraMd text-gray-500 rounded-md">
+            class="box-1 bg-white w-full max-w-[375px] h-max mx-auto px-4 py-10 border-[1px] border-gray-200 font-futuraMd text-gray-500 rounded-2xl">
             <div class="text-center">
               <h4 class="text-xl text-gray-900 font-futuraBk font-semibold tracking-[.4rem]">BASIC</h4>
               <P class="text-paraTextmd font-futuraMd py-3 tracking-wide">Attendance</P>
@@ -751,10 +772,10 @@
 
           <!-- card2 -->
           <div
-            class="box-2 w-full max-w-[375px] mx-auto h-max my-4 lg:my-0 px-4 py-10 border-[1px] border-gray-200 bg-universal font-futuraMd rounded-md">
+            class="box-2 w-full max-w-[375px] mx-auto h-max my-4 lg:my-0 px-4 py-10 border-[1px] border-gray-200 bg-bgSecondary font-futuraMd rounded-2xl">
             <div class="text-center">
-              <h4 class="text-xl text-gray-100 font-futuraBk font-semibold tracking-[.4rem]">ADVANCED</h4>
-              <P class="text-paraTextmd text-gray-300 font-futuraMd py-3 tracking-tight">Basic + Location Tracking &
+              <h4 class="text-xl text-white font-futuraBk font-semibold tracking-[.4rem]">ADVANCED</h4>
+              <P class="text-paraTextmd text-gray-100 font-futuraMd py-3 tracking-tight">Basic + Location Tracking &
                 Timesheet
               </P>
               <h3 class="text-3xl mt-1 text-white font-futuraBk font-bold tracking-tight">₹ 150/user/month</h3>
@@ -763,85 +784,85 @@
             <div class="py-8 text-white *:list-none *:flex *:items-center *:justify-start">
               <li>
                 <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
-                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                <span class="text-base tracking-tight py-1 leading-loose text-gray-50">
                   Attendance with Geo Tagging
                 </span>
               </li>
               <li>
                 <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
-                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                <span class="text-base tracking-tight py-1 leading-loose text-gray-50">
                   Geofence
                 </span>
               </li>
               <li>
                 <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
-                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                <span class="text-base tracking-tight py-1 leading-loose text-gray-50">
                   Payroll Calculation
                 </span>
               </li>
               <li>
                 <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
-                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                <span class="text-base tracking-tight py-1 leading-loose text-gray-50">
                   Dynamic Work Calendar
                 </span>
               </li>
               <li>
                 <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
-                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                <span class="text-base tracking-tight py-1 leading-loose text-gray-50">
                   Selfie Attendance
                 </span>
               </li>
               <li>
                 <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
-                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                <span class="text-base tracking-tight py-1 leading-loose text-gray-50">
                   Multiple Punch in and Punch out
                 </span>
               </li>
               <li>
                 <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
-                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                <span class="text-base tracking-tight py-1 leading-loose text-gray-50">
                   Work Offline
                 </span>
               </li>
               <li>
                 <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
-                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                <span class="text-base tracking-tight py-1 leading-loose text-gray-50">
                   Roster Attendance
                 </span>
               </li>
               <li>
                 <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
-                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                <span class="text-base tracking-tight py-1 leading-loose text-gray-50">
                   Overtime
                 </span>
               </li>
               <li>
                 <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
-                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                <span class="text-base tracking-tight py-1 leading-loose text-gray-50">
                   Standard Salary Report
                 </span>
               </li>
               <li>
                 <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
-                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                <span class="text-base tracking-tight py-1 leading-loose text-gray-50">
                   Holidays management
                 </span>
               </li>
               <li>
                 <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
-                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                <span class="text-base tracking-tight py-1 leading-loose text-gray-50">
                   Location Tracking
                 </span>
               </li>
               <li>
                 <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
-                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                <span class="text-base tracking-tight py-1 leading-loose text-gray-50">
                   Distance Travelled Summary
                 </span>
               </li>
               <li>
                 <img class="object-contain aspect-square mr-2 size-5" src="./assets/mainCheck.png" alt="checkmark">
-                <span class="text-base tracking-tight py-1 leading-loose text-neutral-300">
+                <span class="text-base tracking-tight py-1 leading-loose text-gray-50">
                   Timesheet
                 </span>
               </li>
@@ -858,7 +879,7 @@
 
           <!-- card3 -->
           <div
-            class="box-3 col-span-2 bg-white w-full max-w-[375px] mx-auto h-max px-4 py-10 border-[1px] border-gray-200 font-futuraMd text-gray-500 rounded-md">
+            class="box-3 col-span-2 bg-white w-full max-w-[375px] mx-auto h-max px-4 py-10 border-[1px] border-gray-200 font-futuraMd text-gray-500 rounded-2xl">
             <div class="text-center">
               <h4 class="text-xl text-gray-900 font-futuraBk font-semibold tracking-[.4rem]">ENTERPRISE</h4>
               <P class="text-paraTextmd font-futuraMd py-3 tracking-wide">Advanced + Custom Forms + Support</P>
@@ -977,14 +998,21 @@
     </section>
 
 
-
+    <!-- shape 2  -->
+    <div class="custom-shape-divider-bottom-1732633459">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+          class="shape-fill"></path>
+      </svg>
+    </div>
 
 
 
     <!-- =======================
     ***  Footer Section ***
     ======================== -->
-    <footer class="bg-bgHeader py-16">
+    <footer class="bg-bgPrimary py-16">
       <div class="w-full xl:max-w-7xl mx-auto grid grid-row-2 px-6 md:px-16">
         <div class="grid sm:grid-cols-3 sm:py-10 py-8">
           <div class="rightSide">
